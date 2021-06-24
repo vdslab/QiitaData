@@ -10,6 +10,7 @@ N = int(input("特徴語をいくつにするか："))
 mecab = MeCab.Tagger ('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
 
 mecab.parse('')#文字列がGCされるのを防ぐ
+
 POS = ["動詞", "名詞", "形容詞", "形容動詞"]
 proprietary_noun_page_cnt = {}
 
@@ -47,6 +48,7 @@ def count_words(text, dic, page_cnt):
         word = text.surface
         #品詞を取得
         pos = text.feature.split(",")[0]
+        
         # 単語かどうかの判定
         if pos in POS:
             word_total_count += 1
@@ -63,6 +65,7 @@ def count_words(text, dic, page_cnt):
                     page_cnt[word] += 1
 
                 dic[word] += 1
+
         text = text.next
 
 def calc_article_difficulty(data, page_cnt, all_page_cnt):
@@ -74,24 +77,34 @@ def calc_article_difficulty(data, page_cnt, all_page_cnt):
     for key in data["tf-idf"].keys():
         diff += (all_page_cnt - page_cnt[key]) / all_page_cnt
 
-    data["article_difficulty"] = diff / N
+    data["article_difficulty"] = diff / min(N, len(data["tf-idf"].keys()))
 
-
-for value in json_data.values():
+for value in json_data:
+    corpus = list(set(value["body"].replace(".", "。").replace("\n", "。").split("。")))
     proprietary_noun_dic = {}
+
+    if corpus[0] == "":
+        corpus.pop(0)
+
     count_words(mecab.parseToNode(value["body"]), proprietary_noun_dic, proprietary_noun_page_cnt)
 
-    corpus = value["body"].replace(".", "。").replace("\n", "").split("。")
     word_list = list(proprietary_noun_dic.keys())
 
+    if not len(word_list):
+        value["tf-idf"] = "undifined"
+        continue
+
     calc_tfidf(word_list, corpus, value)
-
-
-for value in json_data.values():
-    calc_article_difficulty(value, proprietary_noun_page_cnt, len(json_data))
     
+for value in json_data:
+    if value["tf-idf"] == "undifined":
+        value["article_difficulty"] = "undifined"
+        del value["tf-idf"]
+        continue
+
+    calc_article_difficulty(value, proprietary_noun_page_cnt, len(json_data))
+    del value["tf-idf"]
     del value["body"]
 
-
-with open("react_article_difficulty_data.json", mode = "wt", encoding = "utf-8") as file:
+with open("react_article_difficulty_data2.json", mode = "wt", encoding = "utf-8") as file:
     json.dump(json_data, file, ensure_ascii = False, indent = 2)

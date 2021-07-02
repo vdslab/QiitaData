@@ -6,7 +6,7 @@ import numpy as np
 import glob
 import gc
 
-files = glob.glob("./sample_data/*")
+files = glob.glob("./article_data/*")
 print(files)
 difficulty_list = []
 N = int(input("特徴語をいくつにするか："))
@@ -124,7 +124,8 @@ for file in files:
     for value in json_data:
         difficulty_list.append({
             "tag": value["tag"],
-            "difficulty": calc_article_difficulty(value, proprietary_noun_page_cnt, len(files))
+            "difficulty": calc_article_difficulty(value, proprietary_noun_page_cnt, len(files)),
+            "url": "https://qiita.com/tags/" + value["tag"].lower()
         })
 
 with open("difficulty_data.json", mode="wt", encoding="utf-8") as file:

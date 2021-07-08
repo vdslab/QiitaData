@@ -118,9 +118,9 @@ def observatory(perspective_word, data_list, tags_words_data):
         for word in value["word_appearance_count"].keys():
             word_difficulty.append({
                 "word": word, 
-                "word_difficulty": (all_tag_cnt - proprietary_noun_tag_cnt[word]) / all_tag_cnt
+                "difficulty": (all_tag_cnt - proprietary_noun_tag_cnt[word]) / all_tag_cnt
             })
         
-        value["words_difficulty"] = sorted(word_difficulty, reverse = True, key=lambda x: x["word_difficulty"])
+        value["words_difficulty"] = sorted(word_difficulty, reverse = True, key=lambda x: x["difficulty"])
         
     return result

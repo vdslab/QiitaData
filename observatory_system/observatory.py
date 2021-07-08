@@ -1,15 +1,17 @@
-from os import register_at_fork
 from count_words import count_words
+from words_collaboration_count import words_collaboration_count
 import MeCab
 
-def observatory(perspective_word, data_list):
+def observatory(perspective_word, data_list, tags_words_data):
     mecab = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
     mecab.parse('')  # 文字列がGCされるのを防ぐ
     result = []
     cnt = 1
     proprietary_noun_tag_cnt = {}
 
-    all_page_cnt = len(data_list)
+    all_tag_cnt = len(data_list)
+    page_word_cnt = {}
+
     # タグ毎の繰り返し
     for article_data in data_list:
 
@@ -17,12 +19,15 @@ def observatory(perspective_word, data_list):
         proprietary_noun_page_cnt = {}
         tag = article_data["tag"]
         article_word_list = []
+        page_word_cnt[tag] = len(article_data["body"])
+
         # タグの記事の繰り返し
         for article in article_data["body"]:
             article = article.replace("\n", "")
             word_list = []
 
             count_words(mecab.parseToNode(article), word_list, proprietary_noun_page_cnt)
+
             article_word_list.append(word_list)
             # 領域名が記事に含まれているか
             if perspective_word in article:
@@ -58,27 +63,15 @@ def observatory(perspective_word, data_list):
                 relation_r.append([word, collaboration_cnt[perspective_word + word] ** 2 / (proprietary_noun_page_cnt[word] * proprietary_noun_page_cnt[perspective_word])])
         
         relation_r = sorted(relation_r, reverse = True, key=lambda x: x[1])
-        s_v = []
 
-        print("OK1")
+        # 観点語集合を構成する
+        s_v = [perspective_word]
         for word in relation_r[:5]:
             s_v.append(word[0])
 
-        collaboration_cnt = {}
-        for article_words in article_word_list:
-            for r in s_v:
-                if r not in article_words:
-                    continue
-
-                for word in article_words:
-                    if r == word:
-                        continue
-
-                    if r + word not in collaboration_cnt.keys():
-                        collaboration_cnt[r + word] = 0
+        # 観点語集合とその他の単語の共起回数を求める
+        collaboration_cnt = words_collaboration_count(article_word_list, s_v)
                     
-                    collaboration_cnt[r + word] += 1
-        print("OK2")
         topic = {}
         for word in proprietary_noun_page_cnt.keys():
             for r in s_v:
@@ -91,14 +84,22 @@ def observatory(perspective_word, data_list):
                 topic[word] = topic[word] * collaboration_cnt[r + word] / proprietary_noun_page_cnt[word] if topic[word] != 0 else collaboration_cnt[r + word] / proprietary_noun_page_cnt[word]
         
         topic = sorted(topic.items(), reverse = True, key=lambda x: x[1])
+
         topic_words = []
         for word in topic[:20]:
             topic_words.append(word[0])
 
+        topic_words_count = {}
+        for word in topic_words:
+            topic_words_count[word] = proprietary_noun_page_cnt[word]
+        
         result.append({
             "tag": tag,
-            "topic_words":topic_words
+            "word_appearance_count": topic_words_count,
+            "word_count": len(proprietary_noun_page_cnt.keys()),
+            "pro_t_tmax": {}
         })
+
 
         # そのタグに使用された固有名詞をカウントする
         for word in proprietary_noun_page_cnt.keys():
@@ -107,15 +108,19 @@ def observatory(perspective_word, data_list):
             
             proprietary_noun_tag_cnt[word] += 1
         
+        tags_words_data[tag] = article_word_list
         print(str(cnt) + "/" + str(len(data_list)))
         cnt += 1
-
+    
+    # それぞれのタグの特徴語の難易度を計算
     for value in result:
         word_difficulty = []
-        for word in value["topic_words"]:
-            word_difficulty.append([word, (all_page_cnt - proprietary_noun_tag_cnt[word]) / all_page_cnt])
+        for word in value["word_appearance_count"].keys():
+            word_difficulty.append({
+                "word": word, 
+                "word_difficulty": (all_tag_cnt - proprietary_noun_tag_cnt[word]) / all_tag_cnt
+            })
         
-        value["words_difficulty"] = word_difficulty
+        value["words_difficulty"] = sorted(word_difficulty, reverse = True, key=lambda x: x["word_difficulty"])
         
-
     return result

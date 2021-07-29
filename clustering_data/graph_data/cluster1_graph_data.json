@@ -7,7 +7,8 @@
     "childNode": [
       15,
       11
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "Java",
@@ -18,7 +19,8 @@
       14,
       21,
       25
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "Python3",
@@ -27,7 +29,8 @@
     "url": "https://qiita.com/tags/python3",
     "childNode": [
       4
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "Git",
@@ -37,14 +40,16 @@
     "childNode": [
       11,
       23
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "C#",
     "diff": 0.1373333333333333,
     "ID": 5,
     "url": "https://qiita.com/tags/c#",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   },
   {
     "nodeName": "機械学習",
@@ -53,7 +58,8 @@
     "url": "https://qiita.com/tags/機械学習",
     "childNode": [
       24
-    ]
+    ],
+    "level": 2
   },
   {
     "nodeName": "C++",
@@ -65,7 +71,8 @@
       5,
       22,
       19
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "GitHub",
@@ -74,7 +81,8 @@
     "url": "https://qiita.com/tags/github",
     "childNode": [
       10
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "Ubuntu",
@@ -83,14 +91,16 @@
     "url": "https://qiita.com/tags/ubuntu",
     "childNode": [
       11
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "CentOS",
     "diff": 0.1336666666666666,
     "ID": 10,
     "url": "https://qiita.com/tags/centos",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "DeepLearning",
@@ -99,7 +109,8 @@
     "url": "https://qiita.com/tags/deeplearning",
     "childNode": [
       25
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "VSCode",
@@ -110,7 +121,8 @@
       8,
       9,
       18
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "Bash",
@@ -119,21 +131,24 @@
     "url": "https://qiita.com/tags/bash",
     "childNode": [
       19
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "R",
     "diff": 0.176,
     "ID": 14,
     "url": "https://qiita.com/tags/r",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   },
   {
     "nodeName": "#migrated",
     "diff": 0.137,
     "ID": 15,
     "url": "https://qiita.com/tags/#migrated",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   },
   {
     "nodeName": "EC2",
@@ -142,14 +157,16 @@
     "url": "https://qiita.com/tags/ec2",
     "childNode": [
       11
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "C",
     "diff": 0.16633333333333333,
     "ID": 17,
     "url": "https://qiita.com/tags/c",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "Excel",
@@ -158,14 +175,16 @@
     "url": "https://qiita.com/tags/excel",
     "childNode": [
       17
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "AtCoder",
     "diff": 0.16066666666666665,
     "ID": 19,
     "url": "https://qiita.com/tags/atcoder",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   },
   {
     "nodeName": "Flutter",
@@ -174,21 +193,24 @@
     "url": "https://qiita.com/tags/flutter",
     "childNode": [
       25
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "MachineLearning",
     "diff": 0.2689999999999999,
     "ID": 21,
     "url": "https://qiita.com/tags/machinelearning",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   },
   {
     "nodeName": "競技プログラミング",
     "diff": 0.182,
     "ID": 22,
     "url": "https://qiita.com/tags/競技プログラミング",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   },
   {
     "nodeName": "Rust",
@@ -197,20 +219,23 @@
     "url": "https://qiita.com/tags/rust",
     "childNode": [
       6
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "pandas",
     "diff": 0.19699999999999998,
     "ID": 24,
     "url": "https://qiita.com/tags/pandas",
-    "childNode": []
+    "childNode": [],
+    "level": 3
   },
   {
     "nodeName": "数学",
     "diff": 0.2613333333333333,
     "ID": 25,
     "url": "https://qiita.com/tags/数学",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   }
 ]

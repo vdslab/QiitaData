@@ -7,21 +7,24 @@
     "childNode": [
       15,
       11
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "iOS",
     "diff": 0.1796666666666667,
     "ID": 2,
     "url": "https://qiita.com/tags/ios",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "Swift",
     "diff": 0.069,
     "ID": 3,
     "url": "https://qiita.com/tags/swift",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   },
   {
     "nodeName": "Android",
@@ -32,7 +35,8 @@
       3,
       11,
       7
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "Linux",
@@ -41,21 +45,24 @@
     "url": "https://qiita.com/tags/linux",
     "childNode": [
       7
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "Unity",
     "diff": 0.11299999999999999,
     "ID": 6,
     "url": "https://qiita.com/tags/unity",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "Mac",
     "diff": 0.12133333333333333,
     "ID": 7,
     "url": "https://qiita.com/tags/mac",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   },
   {
     "nodeName": "Windows",
@@ -64,7 +71,8 @@
     "url": "https://qiita.com/tags/windows",
     "childNode": [
       10
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "Kotlin",
@@ -73,14 +81,16 @@
     "url": "https://qiita.com/tags/kotlin",
     "childNode": [
       11
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "kubernetes",
     "diff": 0.11400000000000002,
     "ID": 10,
     "url": "https://qiita.com/tags/kubernetes",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "MacOSX",
@@ -90,7 +100,8 @@
     "childNode": [
       6,
       2
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "lambda",
@@ -101,7 +112,8 @@
       8,
       9,
       18
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "Windows10",
@@ -110,7 +122,8 @@
     "url": "https://qiita.com/tags/windows10",
     "childNode": [
       7
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "Slack",
@@ -119,14 +132,16 @@
     "url": "https://qiita.com/tags/slack",
     "childNode": [
       2
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "TensorFlow",
     "diff": 0.13999999999999999,
     "ID": 15,
     "url": "https://qiita.com/tags/tensorflow",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   },
   {
     "nodeName": "PowerShell",
@@ -135,7 +150,8 @@
     "url": "https://qiita.com/tags/powershell",
     "childNode": [
       11
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "VirtualBox",
@@ -144,13 +160,15 @@
     "url": "https://qiita.com/tags/virtualbox",
     "childNode": [
       18
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "oracle",
     "diff": 0.2563333333333333,
     "ID": 18,
     "url": "https://qiita.com/tags/oracle",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   }
 ]

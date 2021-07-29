@@ -1,0 +1,192 @@
+[
+  {
+    "tag": "JavaScript",
+    "group": 2,
+    "difficulty": 0.05966666666666666
+  },
+  {
+    "tag": "Ruby",
+    "group": 2,
+    "difficulty": 0.053000000000000005
+  },
+  {
+    "tag": "Rails",
+    "group": 2,
+    "difficulty": 0.091
+  },
+  {
+    "tag": "PHP",
+    "group": 2,
+    "difficulty": 0.11133333333333331
+  },
+  {
+    "tag": "初心者",
+    "group": 2,
+    "difficulty": 0.023000000000000003
+  },
+  {
+    "tag": "Node.js",
+    "group": 2,
+    "difficulty": 0.08066666666666665
+  },
+  {
+    "tag": "CSS",
+    "group": 2,
+    "difficulty": 0.1653333333333333
+  },
+  {
+    "tag": "Vue.js",
+    "group": 2,
+    "difficulty": 0.14133333333333334
+  },
+  {
+    "tag": "Laravel",
+    "group": 2,
+    "difficulty": 0.11066666666666666
+  },
+  {
+    "tag": "React",
+    "group": 2,
+    "difficulty": 0.09133333333333332
+  },
+  {
+    "tag": "HTML",
+    "group": 2,
+    "difficulty": 0.059333333333333335
+  },
+  {
+    "tag": "TypeScript",
+    "group": 2,
+    "difficulty": 0.10533333333333333
+  },
+  {
+    "tag": "jQuery",
+    "group": 2,
+    "difficulty": 0.11033333333333334
+  },
+  {
+    "tag": "Firebase",
+    "group": 2,
+    "difficulty": 0.065
+  },
+  {
+    "tag": "Vagrant",
+    "group": 2,
+    "difficulty": 0.14899999999999997
+  },
+  {
+    "tag": "SQL",
+    "group": 2,
+    "difficulty": 0.06266666666666668
+  },
+  {
+    "tag": "WordPress",
+    "group": 2,
+    "difficulty": 0.1263333333333333
+  },
+  {
+    "tag": "Django",
+    "group": 2,
+    "difficulty": 0.09133333333333331
+  },
+  {
+    "tag": "Heroku",
+    "group": 2,
+    "difficulty": 0.06899999999999999
+  },
+  {
+    "tag": "HTML5",
+    "group": 2,
+    "difficulty": 0.129
+  },
+  {
+    "tag": "gcp",
+    "group": 2,
+    "difficulty": 0.17899999999999996
+  },
+  {
+    "tag": "Angular",
+    "group": 2,
+    "difficulty": 0.098
+  },
+  {
+    "tag": "ShellScript",
+    "group": 2,
+    "difficulty": 0.07566666666666667
+  },
+  {
+    "tag": "GoogleAppsScript",
+    "group": 2,
+    "difficulty": 0.09233333333333332
+  },
+  {
+    "tag": "Arduino",
+    "group": 2,
+    "difficulty": 0.18666666666666665
+  },
+  {
+    "tag": "nuxt.js",
+    "group": 2,
+    "difficulty": 0.1363333333333333
+  },
+  {
+    "tag": "api",
+    "group": 2,
+    "difficulty": 0.10133333333333333
+  },
+  {
+    "tag": "OpenCV",
+    "group": 2,
+    "difficulty": 0.11666666666666668
+  },
+  {
+    "tag": "SSH",
+    "group": 2,
+    "difficulty": 0.08433333333333334
+  },
+  {
+    "tag": "ポエム",
+    "group": 2,
+    "difficulty": 0.08000000000000002
+  },
+  {
+    "tag": "Apache",
+    "group": 2,
+    "difficulty": 0.08800000000000001
+  },
+  {
+    "tag": "新人プログラマ応援",
+    "group": 2,
+    "difficulty": 0.008666666666666666
+  },
+  {
+    "tag": "Chrome",
+    "group": 2,
+    "difficulty": 0.08499999999999999
+  },
+  {
+    "tag": "JSON",
+    "group": 2,
+    "difficulty": 0.02766666666666667
+  },
+  {
+    "tag": "初心者向け",
+    "group": 2,
+    "difficulty": 0.056
+  },
+  {
+    "tag": "S3",
+    "group": 2,
+    "difficulty": 0.02533333333333334
+  },
+  {
+    "tag": "npm",
+    "group": 2,
+    "difficulty": 0.08933333333333332
+  },
+  {
+    "tag": "spring-boot",
+    "group": 2,
+    "difficulty": 0.08166666666666668
+  }
+]

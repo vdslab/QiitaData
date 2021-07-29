@@ -1,0 +1,92 @@
+[
+  {
+    "tag": "Docker",
+    "group": 4,
+    "difficulty": 0.05600000000000001
+  },
+  {
+    "tag": "iOS",
+    "group": 4,
+    "difficulty": 0.1796666666666667
+  },
+  {
+    "tag": "Swift",
+    "group": 4,
+    "difficulty": 0.069
+  },
+  {
+    "tag": "Android",
+    "group": 4,
+    "difficulty": 0.035
+  },
+  {
+    "tag": "Linux",
+    "group": 4,
+    "difficulty": 0.07699999999999999
+  },
+  {
+    "tag": "Unity",
+    "group": 4,
+    "difficulty": 0.11299999999999999
+  },
+  {
+    "tag": "Mac",
+    "group": 4,
+    "difficulty": 0.12133333333333333
+  },
+  {
+    "tag": "Windows",
+    "group": 4,
+    "difficulty": 0.09066666666666663
+  },
+  {
+    "tag": "Kotlin",
+    "group": 4,
+    "difficulty": 0.09333333333333331
+  },
+  {
+    "tag": "kubernetes",
+    "group": 4,
+    "difficulty": 0.11400000000000002
+  },
+  {
+    "tag": "MacOSX",
+    "group": 4,
+    "difficulty": 0.10799999999999997
+  },
+  {
+    "tag": "lambda",
+    "group": 4,
+    "difficulty": 0.04966666666666667
+  },
+  {
+    "tag": "Windows10",
+    "group": 4,
+    "difficulty": 0.04966666666666666
+  },
+  {
+    "tag": "Slack",
+    "group": 4,
+    "difficulty": 0.087
+  },
+  {
+    "tag": "TensorFlow",
+    "group": 4,
+    "difficulty": 0.13999999999999999
+  },
+  {
+    "tag": "PowerShell",
+    "group": 4,
+    "difficulty": 0.026000000000000002
+  },
+  {
+    "tag": "VirtualBox",
+    "group": 4,
+    "difficulty": 0.16
+  },
+  {
+    "tag": "oracle",
+    "group": 4,
+    "difficulty": 0.2563333333333333
+  }
+]

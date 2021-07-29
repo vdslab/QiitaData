@@ -8,7 +8,7 @@
       15,
       11
     ],
-    "level": 0
+    "level": 1
   },
   {
     "nodeName": "iOS",
@@ -16,7 +16,7 @@
     "ID": 2,
     "url": "https://qiita.com/tags/ios",
     "childNode": [],
-    "level": 2
+    "level": 3
   },
   {
     "nodeName": "Swift",
@@ -24,7 +24,7 @@
     "ID": 3,
     "url": "https://qiita.com/tags/swift",
     "childNode": [],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "Android",
@@ -36,7 +36,7 @@
       11,
       7
     ],
-    "level": 0
+    "level": 1
   },
   {
     "nodeName": "Linux",
@@ -46,7 +46,7 @@
     "childNode": [
       7
     ],
-    "level": 0
+    "level": 1
   },
   {
     "nodeName": "Unity",
@@ -54,7 +54,7 @@
     "ID": 6,
     "url": "https://qiita.com/tags/unity",
     "childNode": [],
-    "level": 2
+    "level": 3
   },
   {
     "nodeName": "Mac",
@@ -62,7 +62,7 @@
     "ID": 7,
     "url": "https://qiita.com/tags/mac",
     "childNode": [],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "Windows",
@@ -101,7 +101,7 @@
       6,
       2
     ],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "lambda",
@@ -123,7 +123,7 @@
     "childNode": [
       7
     ],
-    "level": 0
+    "level": 1
   },
   {
     "nodeName": "Slack",
@@ -133,7 +133,7 @@
     "childNode": [
       2
     ],
-    "level": 0
+    "level": 2
   },
   {
     "nodeName": "TensorFlow",
@@ -141,7 +141,7 @@
     "ID": 15,
     "url": "https://qiita.com/tags/tensorflow",
     "childNode": [],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "PowerShell",
@@ -151,7 +151,7 @@
     "childNode": [
       11
     ],
-    "level": 0
+    "level": 1
   },
   {
     "nodeName": "VirtualBox",

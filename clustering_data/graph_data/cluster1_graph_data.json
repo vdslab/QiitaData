@@ -8,7 +8,7 @@
       15,
       11
     ],
-    "level": 0
+    "level": 1
   },
   {
     "nodeName": "Java",
@@ -20,7 +20,7 @@
       21,
       25
     ],
-    "level": 0
+    "level": 2
   },
   {
     "nodeName": "Python3",
@@ -49,7 +49,7 @@
     "ID": 5,
     "url": "https://qiita.com/tags/c#",
     "childNode": [],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "機械学習",
@@ -59,7 +59,7 @@
     "childNode": [
       24
     ],
-    "level": 2
+    "level": 3
   },
   {
     "nodeName": "C++",
@@ -72,7 +72,7 @@
       22,
       19
     ],
-    "level": 0
+    "level": 1
   },
   {
     "nodeName": "GitHub",
@@ -110,7 +110,7 @@
     "childNode": [
       25
     ],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "VSCode",
@@ -132,7 +132,7 @@
     "childNode": [
       19
     ],
-    "level": 0
+    "level": 1
   },
   {
     "nodeName": "R",
@@ -140,7 +140,7 @@
     "ID": 14,
     "url": "https://qiita.com/tags/r",
     "childNode": [],
-    "level": 1
+    "level": 3
   },
   {
     "nodeName": "#migrated",
@@ -148,7 +148,7 @@
     "ID": 15,
     "url": "https://qiita.com/tags/#migrated",
     "childNode": [],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "EC2",
@@ -158,7 +158,7 @@
     "childNode": [
       11
     ],
-    "level": 0
+    "level": 1
   },
   {
     "nodeName": "C",
@@ -184,7 +184,7 @@
     "ID": 19,
     "url": "https://qiita.com/tags/atcoder",
     "childNode": [],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "Flutter",
@@ -194,7 +194,7 @@
     "childNode": [
       25
     ],
-    "level": 0
+    "level": 2
   },
   {
     "nodeName": "MachineLearning",
@@ -202,7 +202,7 @@
     "ID": 21,
     "url": "https://qiita.com/tags/machinelearning",
     "childNode": [],
-    "level": 1
+    "level": 3
   },
   {
     "nodeName": "競技プログラミング",
@@ -210,7 +210,7 @@
     "ID": 22,
     "url": "https://qiita.com/tags/競技プログラミング",
     "childNode": [],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "Rust",
@@ -220,7 +220,7 @@
     "childNode": [
       6
     ],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "pandas",
@@ -228,7 +228,7 @@
     "ID": 24,
     "url": "https://qiita.com/tags/pandas",
     "childNode": [],
-    "level": 3
+    "level": 4
   },
   {
     "nodeName": "数学",
@@ -236,6 +236,6 @@
     "ID": 25,
     "url": "https://qiita.com/tags/数学",
     "childNode": [],
-    "level": 1
+    "level": 3
   }
 ]

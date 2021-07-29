@@ -75,7 +75,7 @@
     "childNode": [
       12
     ],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "PostgreSQL",
@@ -95,7 +95,7 @@
     "childNode": [
       8
     ],
-    "level": 0
+    "level": 1
   },
   {
     "nodeName": "docker-compose",
@@ -117,7 +117,7 @@
     "ID": 12,
     "url": "https://qiita.com/tags/iot",
     "childNode": [],
-    "level": 1
+    "level": 3
   },
   {
     "nodeName": "Scala",
@@ -127,7 +127,7 @@
     "childNode": [
       19
     ],
-    "level": 0
+    "level": 3
   },
   {
     "nodeName": "centos7",
@@ -159,7 +159,7 @@
     "ID": 17,
     "url": "https://qiita.com/tags/vba",
     "childNode": [],
-    "level": 1
+    "level": 3
   },
   {
     "nodeName": "Qiita",
@@ -170,7 +170,7 @@
       17,
       12
     ],
-    "level": 0
+    "level": 2
   },
   {
     "nodeName": "Elixir",
@@ -178,6 +178,6 @@
     "ID": 19,
     "url": "https://qiita.com/tags/elixir",
     "childNode": [],
-    "level": 1
+    "level": 4
   }
 ]

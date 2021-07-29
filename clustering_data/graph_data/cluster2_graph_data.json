@@ -254,7 +254,7 @@
     "ID": 27,
     "url": "https://qiita.com/tags/api",
     "childNode": [],
-    "level": 1
+    "level": 2
   },
   {
     "nodeName": "OpenCV",
@@ -342,7 +342,7 @@
     "childNode": [
       27
     ],
-    "level": 0
+    "level": 1
   },
   {
     "nodeName": "npm",

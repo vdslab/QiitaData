@@ -21,7 +21,7 @@ def set_level(json_data, parent_flag, root_flag, level, i):
     return 
 
   root_flag[i] = 1
-  json_data[i]["level"] =  level#max(level, json_data[i]["level"])
+  json_data[i]["level"] =  max(level, json_data[i]["level"])
   for child in json_data[i]["childNode"]:
     set_level(json_data, parent_flag, root_flag, level + 1, child - 1)
   
@@ -52,6 +52,11 @@ for file in files:
     if max_count <= count:
       json_data = set_level(json_data, parent_flag, root_flag, 0, i)
       max_count = count
+    count = 0
+  for data in json_data:
+    count = max(count, data["level"])
+
+  print(max_count, file, count)
 
   with open("./clustering_data/graph_data/" + file.split("/")[3].split("_")[0] + "_graph_data.json", mode = "wt", encoding = "utf-8") as file:
     json.dump(json_data, file, ensure_ascii = False, indent = 2)

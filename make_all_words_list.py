@@ -13,10 +13,10 @@ for i in all_words_data:
         text_data.append(j)
 
 #重複なしかつ順番を統一したいので一旦ソートする
-list(set(text_data)).sort()
+text_data = sorted(list(set(text_data)))
 
 json_data = {"words":text_data}
 
 j_w = open("./all_words.json","w")
-json.dump(json_data,j_w,indent=2)
+json.dump(json_data,j_w,indent=2,ensure_ascii=False)
 j_w.close()

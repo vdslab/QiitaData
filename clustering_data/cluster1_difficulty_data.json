@@ -1,0 +1,127 @@
+[
+  {
+    "tag": "Python",
+    "group": 1,
+    "difficulty": 0.05400000000000001
+  },
+  {
+    "tag": "Java",
+    "group": 1,
+    "difficulty": 0.10533333333333333
+  },
+  {
+    "tag": "Python3",
+    "group": 1,
+    "difficulty": 0.024333333333333332
+  },
+  {
+    "tag": "Git",
+    "group": 1,
+    "difficulty": 0.10699999999999997
+  },
+  {
+    "tag": "C#",
+    "group": 1,
+    "difficulty": 0.1373333333333333
+  },
+  {
+    "tag": "機械学習",
+    "group": 1,
+    "difficulty": 0.17433333333333328
+  },
+  {
+    "tag": "C++",
+    "group": 1,
+    "difficulty": 0.13333333333333333
+  },
+  {
+    "tag": "GitHub",
+    "group": 1,
+    "difficulty": 0.09
+  },
+  {
+    "tag": "Ubuntu",
+    "group": 1,
+    "difficulty": 0.08666666666666667
+  },
+  {
+    "tag": "CentOS",
+    "group": 1,
+    "difficulty": 0.1336666666666666
+  },
+  {
+    "tag": "DeepLearning",
+    "group": 1,
+    "difficulty": 0.23600000000000004
+  },
+  {
+    "tag": "VSCode",
+    "group": 1,
+    "difficulty": 0.05600000000000001
+  },
+  {
+    "tag": "Bash",
+    "group": 1,
+    "difficulty": 0.09999999999999996
+  },
+  {
+    "tag": "R",
+    "group": 1,
+    "difficulty": 0.176
+  },
+  {
+    "tag": "#migrated",
+    "group": 1,
+    "difficulty": 0.137
+  },
+  {
+    "tag": "EC2",
+    "group": 1,
+    "difficulty": 0.07733333333333334
+  },
+  {
+    "tag": "C",
+    "group": 1,
+    "difficulty": 0.16633333333333333
+  },
+  {
+    "tag": "Excel",
+    "group": 1,
+    "difficulty": 0.10400000000000001
+  },
+  {
+    "tag": "AtCoder",
+    "group": 1,
+    "difficulty": 0.16066666666666665
+  },
+  {
+    "tag": "Flutter",
+    "group": 1,
+    "difficulty": 0.08299999999999999
+  },
+  {
+    "tag": "MachineLearning",
+    "group": 1,
+    "difficulty": 0.2689999999999999
+  },
+  {
+    "tag": "競技プログラミング",
+    "group": 1,
+    "difficulty": 0.182
+  },
+  {
+    "tag": "Rust",
+    "group": 1,
+    "difficulty": 0.14099999999999996
+  },
+  {
+    "tag": "pandas",
+    "group": 1,
+    "difficulty": 0.19699999999999998
+  },
+  {
+    "tag": "数学",
+    "group": 1,
+    "difficulty": 0.2613333333333333
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "tag": "AWS",
+    "group": 3,
+    "difficulty": 0.08733333333333333
+  },
+  {
+    "tag": "Go",
+    "group": 3,
+    "difficulty": 0.08066666666666664
+  },
+  {
+    "tag": "MySQL",
+    "group": 3,
+    "difficulty": 0.08466666666666667
+  },
+  {
+    "tag": "Xcode",
+    "group": 3,
+    "difficulty": 0.07766666666666663
+  },
+  {
+    "tag": "RaspberryPi",
+    "group": 3,
+    "difficulty": 0.156
+  },
+  {
+    "tag": "Azure",
+    "group": 3,
+    "difficulty": 0.03900000000000001
+  },
+  {
+    "tag": "Vim",
+    "group": 3,
+    "difficulty": 0.10033333333333332
+  },
+  {
+    "tag": "Objective-C",
+    "group": 3,
+    "difficulty": 0.09833333333333333
+  },
+  {
+    "tag": "PostgreSQL",
+    "group": 3,
+    "difficulty": 0.0933333333333333
+  },
+  {
+    "tag": "nginx",
+    "group": 3,
+    "difficulty": 0.05466666666666667
+  },
+  {
+    "tag": "docker-compose",
+    "group": 3,
+    "difficulty": 0.04800000000000001
+  },
+  {
+    "tag": "IoT",
+    "group": 3,
+    "difficulty": 0.21099999999999997
+  },
+  {
+    "tag": "Scala",
+    "group": 3,
+    "difficulty": 0.16666666666666663
+  },
+  {
+    "tag": "centos7",
+    "group": 3,
+    "difficulty": 0.19066666666666662
+  },
+  {
+    "tag": "Ansible",
+    "group": 3,
+    "difficulty": 0.10266666666666664
+  },
+  {
+    "tag": "AndroidStudio",
+    "group": 3,
+    "difficulty": 0.109
+  },
+  {
+    "tag": "VBA",
+    "group": 3,
+    "difficulty": 0.18699999999999994
+  },
+  {
+    "tag": "Qiita",
+    "group": 3,
+    "difficulty": 0.09466666666666665
+  },
+  {
+    "tag": "Elixir",
+    "group": 3,
+    "difficulty": 0.28233333333333327
+  }
+]

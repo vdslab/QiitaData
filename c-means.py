@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from skfuzzy.cluster import cmeans
 import numpy as np
 import json

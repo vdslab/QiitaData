@@ -8,13 +8,6 @@ all_words_data = json.load(json_open1)
 text_data      = json.load(json_open2)
 tags = []
 
-'''
-for i in all_words_data:
-    #使用するタグだけを入れた配列tagsを作成
-    tags.append(i["tag"])
-    for j in i["words"]:
-        text_data.append(j)
-'''
 
 allWordCnt = len(text_data["words"])
 zero_allay = [0]*allWordCnt
@@ -22,6 +15,7 @@ wordVec = [] #全てのベクトルを入れる配列。最終的には二次元
 
 #各タグに対してのベクトルを生成
 #それぞれの単語が出現したら1,そうでなければ0を入れたい
+
 n = 1000 #上位n件の値
 
 for i in all_words_data:
@@ -33,11 +27,16 @@ for i in all_words_data:
         if word in appearanceWordList:
             tempVec[word] = 1
     wordVec.append(list(tempVec.values()))
+
 #クラスタリングの処理
 data = np.array(wordVec)
+#cmeans(いじるな,クラスタ数(整数),m値(1以上の実数で小さい程厳密に分けてくれる),いじるな,いじるな)
+#クラスタ数とm値を変えて頑張る
+#m値は1.2以下だと少数がめちゃくちゃ長くなるので、これ以上の値がおすすめ。1.5以上だと全部同じ値になるから、1.2〜1.5の範囲がいいかも
 cm_result = cmeans(data.T, 5, 1.3, 0.003, 10000)
 
 x = 0.25 #この値を超えたもののみ採用する
+#xの値は1/クラスタ数 以上の値でいい感じに
 BIGCNT = 0
 
 #cm_result[1]に結果が入ってる

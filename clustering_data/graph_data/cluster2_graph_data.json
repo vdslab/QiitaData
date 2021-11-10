@@ -7,7 +7,8 @@
     "childNode": [
       15,
       27
-    ]
+    ],
+    "level": 2
   },
   {
     "nodeName": "Ruby",
@@ -20,7 +21,8 @@
       26,
       21,
       25
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "Rails",
@@ -29,14 +31,16 @@
     "url": "https://qiita.com/tags/rails",
     "childNode": [
       4
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "PHP",
     "diff": 0.11133333333333331,
     "ID": 4,
     "url": "https://qiita.com/tags/php",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "初心者",
@@ -45,7 +49,8 @@
     "url": "https://qiita.com/tags/初心者",
     "childNode": [
       7
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "Node.js",
@@ -54,28 +59,32 @@
     "url": "https://qiita.com/tags/node.js",
     "childNode": [
       24
-    ]
+    ],
+    "level": 2
   },
   {
     "nodeName": "CSS",
     "diff": 0.1653333333333333,
     "ID": 7,
     "url": "https://qiita.com/tags/css",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "Vue.js",
     "diff": 0.14133333333333334,
     "ID": 8,
     "url": "https://qiita.com/tags/vue.js",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "Laravel",
     "diff": 0.11066666666666666,
     "ID": 9,
     "url": "https://qiita.com/tags/laravel",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "React",
@@ -84,7 +93,8 @@
     "url": "https://qiita.com/tags/react",
     "childNode": [
       8
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "HTML",
@@ -97,7 +107,8 @@
       1,
       9,
       16
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "TypeScript",
@@ -107,28 +118,32 @@
     "childNode": [
       8,
       9
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "jQuery",
     "diff": 0.11033333333333334,
     "ID": 13,
     "url": "https://qiita.com/tags/jquery",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "Firebase",
     "diff": 0.065,
     "ID": 14,
     "url": "https://qiita.com/tags/firebase",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "Vagrant",
     "diff": 0.14899999999999997,
     "ID": 15,
     "url": "https://qiita.com/tags/vagrant",
-    "childNode": []
+    "childNode": [],
+    "level": 3
   },
   {
     "nodeName": "SQL",
@@ -137,14 +152,16 @@
     "url": "https://qiita.com/tags/sql",
     "childNode": [
       30
-    ]
+    ],
+    "level": 2
   },
   {
     "nodeName": "WordPress",
     "diff": 0.1263333333333333,
     "ID": 17,
     "url": "https://qiita.com/tags/wordpress",
-    "childNode": []
+    "childNode": [],
+    "level": 1
   },
   {
     "nodeName": "Django",
@@ -154,7 +171,8 @@
     "childNode": [
       17,
       12
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "Heroku",
@@ -163,7 +181,8 @@
     "url": "https://qiita.com/tags/heroku",
     "childNode": [
       38
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "HTML5",
@@ -172,14 +191,16 @@
     "url": "https://qiita.com/tags/html5",
     "childNode": [
       25
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "gcp",
     "diff": 0.17899999999999996,
     "ID": 21,
     "url": "https://qiita.com/tags/gcp",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "Angular",
@@ -188,7 +209,8 @@
     "url": "https://qiita.com/tags/angular",
     "childNode": [
       7
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "ShellScript",
@@ -199,42 +221,48 @@
       6,
       7,
       4
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "GoogleAppsScript",
     "diff": 0.09233333333333332,
     "ID": 24,
     "url": "https://qiita.com/tags/googleappsscript",
-    "childNode": []
+    "childNode": [],
+    "level": 3
   },
   {
     "nodeName": "Arduino",
     "diff": 0.18666666666666665,
     "ID": 25,
     "url": "https://qiita.com/tags/arduino",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "nuxt.js",
     "diff": 0.1363333333333333,
     "ID": 26,
     "url": "https://qiita.com/tags/nuxt.js",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "api",
     "diff": 0.10133333333333333,
     "ID": 27,
     "url": "https://qiita.com/tags/api",
-    "childNode": []
+    "childNode": [],
+    "level": 3
   },
   {
     "nodeName": "OpenCV",
     "diff": 0.11666666666666668,
     "ID": 28,
     "url": "https://qiita.com/tags/opencv",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "SSH",
@@ -244,14 +272,16 @@
     "childNode": [
       13,
       28
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "ポエム",
     "diff": 0.08000000000000002,
     "ID": 30,
     "url": "https://qiita.com/tags/ポエム",
-    "childNode": []
+    "childNode": [],
+    "level": 3
   },
   {
     "nodeName": "Apache",
@@ -260,7 +290,8 @@
     "url": "https://qiita.com/tags/apache",
     "childNode": [
       26
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "新人プログラマ応援",
@@ -269,7 +300,8 @@
     "url": "https://qiita.com/tags/新人プログラマ応援",
     "childNode": [
       8
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "Chrome",
@@ -278,7 +310,8 @@
     "url": "https://qiita.com/tags/chrome",
     "childNode": [
       13
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "JSON",
@@ -288,7 +321,8 @@
     "childNode": [
       13,
       7
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "初心者向け",
@@ -297,7 +331,8 @@
     "url": "https://qiita.com/tags/初心者向け",
     "childNode": [
       13
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "S3",
@@ -306,14 +341,16 @@
     "url": "https://qiita.com/tags/s3",
     "childNode": [
       27
-    ]
+    ],
+    "level": 2
   },
   {
     "nodeName": "npm",
     "diff": 0.08933333333333332,
     "ID": 37,
     "url": "https://qiita.com/tags/npm",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "spring-boot",
@@ -322,6 +359,7 @@
     "url": "https://qiita.com/tags/spring-boot",
     "childNode": [
       13
-    ]
+    ],
+    "level": 1
   }
 ]

@@ -6,7 +6,8 @@
     "url": "https://qiita.com/tags/aws",
     "childNode": [
       15
-    ]
+    ],
+    "level": 2
   },
   {
     "nodeName": "Go",
@@ -15,14 +16,16 @@
     "url": "https://qiita.com/tags/go",
     "childNode": [
       14
-    ]
+    ],
+    "level": 2
   },
   {
     "nodeName": "MySQL",
     "diff": 0.08466666666666667,
     "ID": 3,
     "url": "https://qiita.com/tags/mysql",
-    "childNode": []
+    "childNode": [],
+    "level": 3
   },
   {
     "nodeName": "Xcode",
@@ -32,14 +35,16 @@
     "childNode": [
       3,
       7
-    ]
+    ],
+    "level": 2
   },
   {
     "nodeName": "RaspberryPi",
     "diff": 0.156,
     "ID": 5,
     "url": "https://qiita.com/tags/raspberrypi",
-    "childNode": []
+    "childNode": [],
+    "level": 4
   },
   {
     "nodeName": "Azure",
@@ -48,7 +53,8 @@
     "url": "https://qiita.com/tags/azure",
     "childNode": [
       11
-    ]
+    ],
+    "level": 0
   },
   {
     "nodeName": "Vim",
@@ -58,7 +64,8 @@
     "childNode": [
       5,
       19
-    ]
+    ],
+    "level": 3
   },
   {
     "nodeName": "Objective-C",
@@ -67,7 +74,8 @@
     "url": "https://qiita.com/tags/objective-c",
     "childNode": [
       12
-    ]
+    ],
+    "level": 2
   },
   {
     "nodeName": "PostgreSQL",
@@ -76,7 +84,8 @@
     "url": "https://qiita.com/tags/postgresql",
     "childNode": [
       12
-    ]
+    ],
+    "level": 2
   },
   {
     "nodeName": "nginx",
@@ -85,7 +94,8 @@
     "url": "https://qiita.com/tags/nginx",
     "childNode": [
       8
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "docker-compose",
@@ -98,14 +108,16 @@
       2,
       9,
       16
-    ]
+    ],
+    "level": 1
   },
   {
     "nodeName": "IoT",
     "diff": 0.21099999999999997,
     "ID": 12,
     "url": "https://qiita.com/tags/iot",
-    "childNode": []
+    "childNode": [],
+    "level": 3
   },
   {
     "nodeName": "Scala",
@@ -114,35 +126,40 @@
     "url": "https://qiita.com/tags/scala",
     "childNode": [
       19
-    ]
+    ],
+    "level": 3
   },
   {
     "nodeName": "centos7",
     "diff": 0.19066666666666662,
     "ID": 14,
     "url": "https://qiita.com/tags/centos7",
-    "childNode": []
+    "childNode": [],
+    "level": 3
   },
   {
     "nodeName": "Ansible",
     "diff": 0.10266666666666664,
     "ID": 15,
     "url": "https://qiita.com/tags/ansible",
-    "childNode": []
+    "childNode": [],
+    "level": 3
   },
   {
     "nodeName": "AndroidStudio",
     "diff": 0.109,
     "ID": 16,
     "url": "https://qiita.com/tags/androidstudio",
-    "childNode": []
+    "childNode": [],
+    "level": 2
   },
   {
     "nodeName": "VBA",
     "diff": 0.18699999999999994,
     "ID": 17,
     "url": "https://qiita.com/tags/vba",
-    "childNode": []
+    "childNode": [],
+    "level": 3
   },
   {
     "nodeName": "Qiita",
@@ -152,13 +169,15 @@
     "childNode": [
       17,
       12
-    ]
+    ],
+    "level": 2
   },
   {
     "nodeName": "Elixir",
     "diff": 0.28233333333333327,
     "ID": 19,
     "url": "https://qiita.com/tags/elixir",
-    "childNode": []
+    "childNode": [],
+    "level": 4
   }
 ]

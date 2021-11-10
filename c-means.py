@@ -42,6 +42,7 @@ BIGCNT = 0
 
 #cm_result[1]に結果が入ってる
 
+print(cm_result[1])
 for i in cm_result[1]:
     BIGCNT += 1
     cnt = 0

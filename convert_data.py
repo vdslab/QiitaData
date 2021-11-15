@@ -92,13 +92,8 @@ def main():
       
       #print(res)
       #print(uf.parent)
-      with open("./clustering_data/graph_data/" + file.split("/")[2].split("_")[0] + "graph_data.json", mode = "wt", encoding = "utf-8") as file:
+      with open("./clustering_data/graph_data/" + file.split("/")[2].split("_")[0] + "_graph_data.json", mode = "wt", encoding = "utf-8") as file:
         json.dump(res, file, ensure_ascii = False, indent = 2)
-
-      """
-      with open(file.split("/")[1].split("_")[0] + 'graph_data.json', 'w', encoding='utf-8') as f:
-        f.write(json.dumps(res, indent=2))
-      """
 
 if __name__ == '__main__':
     main()

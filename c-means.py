@@ -3,15 +3,27 @@ from skfuzzy.cluster import cmeans
 import numpy as np
 import json
 
-json_open1 = open("./all_tag_words_dict.json", "r")
-json_open2 = open("./all_words.json", "r")
-all_words_data = json.load(json_open1)
-text_data      = json.load(json_open2)
+json_open0 = open("./all_words.json", "r")
+json_open1 = open("./tag_words_count_data/tag_words_count_data_1_100.json", "r")
+json_open2 = open("./tag_words_count_data/tag_words_count_data_101_200.json", "r")
+json_open3 = open("./tag_words_count_data/tag_words_count_data_201_300.json", "r")
+json_open4 = open("./tag_words_count_data/tag_words_count_data_301_400.json", "r")
+json_open5 = open("./tag_words_count_data/tag_words_count_data_401_500.json", "r")
+
+
+text_data      = json.load(json_open0)
+data1  =  json.load(json_open1)
+data2  =  json.load(json_open2)
+data3  =  json.load(json_open3)
+data4  =  json.load(json_open4)
+data5  =  json.load(json_open5)
+all_words_data = [data1,data2,data3,data4,data5]
+
 tags = []
 
 
 allWordCnt = len(text_data["words"])
-zero_allay = [0]*allWordCnt
+zero_array = [0]*allWordCnt
 wordVec = [] #全てのベクトルを入れる配列。最終的には二次元配列になる。
 
 #各タグに対してのベクトルを生成
@@ -19,15 +31,18 @@ wordVec = [] #全てのベクトルを入れる配列。最終的には二次元
 
 n = 1000 #上位n件の値
 
+
+
 for i in all_words_data:
-    tempVec = dict(zip(text_data["words"],zero_allay))#今からベクトル化したいタグの辞書を作成
-    appearanceWordList = dict(zip(i["words"],zero_allay)) #出現単語の辞書型valueは初期値0で作成
-    tags.append(i["tag"])
-    for j in range(n): 
-        word = text_data["words"][j]
-        if word in appearanceWordList:
-            tempVec[word] = 1
-    wordVec.append(list(tempVec.values()))
+    for j in i:
+        tempVec = dict(zip(text_data["words"],zero_array))#今からベクトル化したいタグの辞書を作成
+        appearanceWordList = dict(zip(j["words"],zero_array)) #出現単語の辞書型valueは初期値0で作成
+        tags.append(j["tag"])
+        for k in range(n): 
+            word = text_data["words"][k]
+            if word in appearanceWordList:
+                tempVec[word] = 1
+        wordVec.append(list(tempVec.values()))
 
 #クラスタリングの処理
 data = np.array(wordVec)

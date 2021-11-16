@@ -18,6 +18,7 @@ data3  =  json.load(json_open3)
 data4  =  json.load(json_open4)
 data5  =  json.load(json_open5)
 all_words_data = [data1,data2,data3,data4,data5]
+#all_words_data = [data1,data2,data3,data4]
 
 tags = []
 
@@ -54,16 +55,20 @@ cm_result = cmeans(data.T, 5, 1.3, 0.003, 10000)
 x = 0.25 #この値を超えたもののみ採用する
 #xの値は1/クラスタ数 以上の値でいい感じに
 BIGCNT = 0
-
+create_data = {}
 #cm_result[1]に結果が入ってる
-
-print(cm_result[1])
 for i in cm_result[1]:
     BIGCNT += 1
     cnt = 0
-    print(str(BIGCNT)+":",end="")
+    data = []
+    #print(str(BIGCNT)+":",end="")
     for j in i:
         cnt += 1
         if j > x:
-            print(tags[cnt-1]+" ", end ="")
-    print("")
+            #print(tags[cnt-1]+" ", end ="")
+            data.append(tags[cnt - 1])
+    create_data["cluster" + str(BIGCNT)] = data
+    #print("")
+
+with open("clustering_sample_data.json", mode = "wt", encoding = "utf-8") as file:
+    json.dump(create_data, file, ensure_ascii = False, indent = 2)

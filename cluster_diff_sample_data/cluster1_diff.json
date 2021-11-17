@@ -1,0 +1,314 @@
+[
+  {
+    "tag": "Git",
+    "difficulty": 0.7763153310104529
+  },
+  {
+    "tag": "Vue.js",
+    "difficulty": 0.7390497553017945
+  },
+  {
+    "tag": "Laravel",
+    "difficulty": 0.8144287915474356
+  },
+  {
+    "tag": "React",
+    "difficulty": 0.7717707633758675
+  },
+  {
+    "tag": "Windows",
+    "difficulty": 0.8818767249310028
+  },
+  {
+    "tag": "TypeScript",
+    "difficulty": 0.7878264592550307
+  },
+  {
+    "tag": "Xcode",
+    "difficulty": 0.8290771737520368
+  },
+  {
+    "tag": "Ubuntu",
+    "difficulty": 0.8691209281570726
+  },
+  {
+    "tag": "CentOS",
+    "difficulty": 0.8517247987734764
+  },
+  {
+    "tag": "jQuery",
+    "difficulty": 0.8160630841121496
+  },
+  {
+    "tag": "VSCode",
+    "difficulty": 0.803960396039604
+  },
+  {
+    "tag": "Kotlin",
+    "difficulty": 0.8150631258162822
+  },
+  {
+    "tag": "kubernetes",
+    "difficulty": 0.78073352954494
+  },
+  {
+    "tag": "Firebase",
+    "difficulty": 0.7852709587772116
+  },
+  {
+    "tag": "MacOSX",
+    "difficulty": 0.9015151515151516
+  },
+  {
+    "tag": "Vim",
+    "difficulty": 0.8168958742632613
+  },
+  {
+    "tag": "SQL",
+    "difficulty": 0.8774709302325581
+  },
+  {
+    "tag": "WordPress",
+    "difficulty": 0.8330426115125841
+  },
+  {
+    "tag": "PostgreSQL",
+    "difficulty": 0.8505251520176893
+  },
+  {
+    "tag": "lambda",
+    "difficulty": 0.8252548131370329
+  },
+  {
+    "tag": "Windows10",
+    "difficulty": 0.8222680979906414
+  },
+  {
+    "tag": "nginx",
+    "difficulty": 0.7221716712162574
+  },
+  {
+    "tag": "HTML5",
+    "difficulty": 0.8536195549984331
+  },
+  {
+    "tag": "Excel",
+    "difficulty": 0.9273142112125164
+  },
+  {
+    "tag": "ShellScript",
+    "difficulty": 0.8910307898259706
+  },
+  {
+    "tag": "GoogleAppsScript",
+    "difficulty": 0.8763149078726968
+  },
+  {
+    "tag": "Scala",
+    "difficulty": 0.8717878057182226
+  },
+  {
+    "tag": "nuxt.js",
+    "difficulty": 0.6564717477003942
+  },
+  {
+    "tag": "api",
+    "difficulty": 0.8241186736474694
+  },
+  {
+    "tag": "ポエム",
+    "difficulty": 0.8862918044836456
+  },
+  {
+    "tag": "Ansible",
+    "difficulty": 0.7122304978439826
+  },
+  {
+    "tag": "Apache",
+    "difficulty": 0.744578313253012
+  },
+  {
+    "tag": "Rust",
+    "difficulty": 0.8205614867536578
+  },
+  {
+    "tag": "oracle",
+    "difficulty": 0.8656143344709898
+  },
+  {
+    "tag": "pandas",
+    "difficulty": 0.7502739148756847
+  },
+  {
+    "tag": "S3",
+    "difficulty": 0.8772423025435072
+  },
+  {
+    "tag": "VBA",
+    "difficulty": 0.9531264262893655
+  },
+  {
+    "tag": "Qiita",
+    "difficulty": 0.9360368663594469
+  },
+  {
+    "tag": "Elixir",
+    "difficulty": 0.8305322128851541
+  },
+  {
+    "tag": "Twitter",
+    "difficulty": 0.7862745098039216
+  },
+  {
+    "tag": "Haskell",
+    "difficulty": 0.9099204244031831
+  },
+  {
+    "tag": "Web",
+    "difficulty": 0.8368753287743294
+  },
+  {
+    "tag": "Elasticsearch",
+    "difficulty": 0.7787089467723669
+  },
+  {
+    "tag": "プログラミング",
+    "difficulty": 0.9235434007134362
+  },
+  {
+    "tag": "ibmcloud",
+    "difficulty": 0.8822143698468785
+  },
+  {
+    "tag": "自然言語処理",
+    "difficulty": 0.8516826923076923
+  },
+  {
+    "tag": "セキュリティ",
+    "difficulty": 0.8585979628520072
+  },
+  {
+    "tag": "Jupyter",
+    "difficulty": 0.7307984790874524
+  },
+  {
+    "tag": "numpy",
+    "difficulty": 0.7899810964083176
+  },
+  {
+    "tag": "AI",
+    "difficulty": 0.8165120593692021
+  },
+  {
+    "tag": "Perl",
+    "difficulty": 0.8793745841650032
+  },
+  {
+    "tag": "環境構築",
+    "difficulty": 0.8678523489932888
+  },
+  {
+    "tag": "Blockchain",
+    "difficulty": 0.8386178861788618
+  },
+  {
+    "tag": "AdventCalendar",
+    "difficulty": 0.8990888382687927
+  },
+  {
+    "tag": "MongoDB",
+    "difficulty": 0.7984743411927878
+  },
+  {
+    "tag": "メモ",
+    "difficulty": 0.9646616541353381
+  },
+  {
+    "tag": "GitLab",
+    "difficulty": 0.7544476327116213
+  },
+  {
+    "tag": "入門",
+    "difficulty": 0.9057430007178751
+  },
+  {
+    "tag": "正規表現",
+    "difficulty": 0.8145357686453577
+  },
+  {
+    "tag": "google",
+    "difficulty": 0.8669019607843136
+  },
+  {
+    "tag": "Unity3D",
+    "difficulty": 0.9079073482428115
+  },
+  {
+    "tag": "テスト",
+    "difficulty": 0.8934102141680395
+  },
+  {
+    "tag": "Security",
+    "difficulty": 0.8285714285714286
+  },
+  {
+    "tag": "DB",
+    "difficulty": 0.890818181818182
+  },
+  {
+    "tag": "BigQuery",
+    "difficulty": 0.8659922928709056
+  },
+  {
+    "tag": "Bluemix",
+    "difficulty": 0.85463687150838
+  },
+  {
+    "tag": "java8",
+    "difficulty": 0.8986206896551725
+  },
+  {
+    "tag": "CTF",
+    "difficulty": 0.7567596566523604
+  },
+  {
+    "tag": "Kaggle",
+    "difficulty": 0.7833333333333333
+  },
+  {
+    "tag": "scikit-learn",
+    "difficulty": 0.7287655719139299
+  },
+  {
+    "tag": "Julia",
+    "difficulty": 0.9028058361391695
+  },
+  {
+    "tag": "勉強会",
+    "difficulty": 0.8364497041420119
+  },
+  {
+    "tag": "serverless",
+    "difficulty": 0.7445569620253164
+  },
+  {
+    "tag": "個人開発",
+    "difficulty": 0.8242078580481623
+  },
+  {
+    "tag": "SoftLayer",
+    "difficulty": 0.9231966053748231
+  },
+  {
+    "tag": "Bitcoin",
+    "difficulty": 0.8128125
+  },
+  {
+    "tag": "GPU",
+    "difficulty": 0.8667814113597245
+  },
+  {
+    "tag": "人工知能",
+    "difficulty": 0.7901960784313725
+  }
+]

@@ -1,0 +1,238 @@
+[
+  {
+    "tag": "Python",
+    "difficulty": 0.8237525145011034
+  },
+  {
+    "tag": "JavaScript",
+    "difficulty": 0.8419486996793729
+  },
+  {
+    "tag": "Ruby",
+    "difficulty": 0.8234580767408811
+  },
+  {
+    "tag": "Rails",
+    "difficulty": 0.7681298226614323
+  },
+  {
+    "tag": "AWS",
+    "difficulty": 0.9181317284055268
+  },
+  {
+    "tag": "PHP",
+    "difficulty": 0.8821163196037061
+  },
+  {
+    "tag": "Docker",
+    "difficulty": 0.766608187134503
+  },
+  {
+    "tag": "iOS",
+    "difficulty": 0.8760668457176963
+  },
+  {
+    "tag": "Java",
+    "difficulty": 0.8893224440411374
+  },
+  {
+    "tag": "Swift",
+    "difficulty": 0.8124142704335242
+  },
+  {
+    "tag": "初心者",
+    "difficulty": 0.9195670274771024
+  },
+  {
+    "tag": "Android",
+    "difficulty": 0.8683056832567125
+  },
+  {
+    "tag": "Linux",
+    "difficulty": 0.8911594746716698
+  },
+  {
+    "tag": "Node.js",
+    "difficulty": 0.7853513200364148
+  },
+  {
+    "tag": "Python3",
+    "difficulty": 0.8241766284459624
+  },
+  {
+    "tag": "C#",
+    "difficulty": 0.9038121268790908
+  },
+  {
+    "tag": "Unity",
+    "difficulty": 0.8768699224950975
+  },
+  {
+    "tag": "Mac",
+    "difficulty": 0.8873791149750904
+  },
+  {
+    "tag": "CSS",
+    "difficulty": 0.8321581308021277
+  },
+  {
+    "tag": "Go",
+    "difficulty": 0.8413691451031772
+  },
+  {
+    "tag": "MySQL",
+    "difficulty": 0.8369888475836431
+  },
+  {
+    "tag": "HTML",
+    "difficulty": 0.8342502218278616
+  },
+  {
+    "tag": "機械学習",
+    "difficulty": 0.8270772946859903
+  },
+  {
+    "tag": "C++",
+    "difficulty": 0.8413295857265061
+  },
+  {
+    "tag": "GitHub",
+    "difficulty": 0.7800440871369295
+  },
+  {
+    "tag": "RaspberryPi",
+    "difficulty": 0.8467078499321984
+  },
+  {
+    "tag": "DeepLearning",
+    "difficulty": 0.7713181367690781
+  },
+  {
+    "tag": "Bash",
+    "difficulty": 0.8786071817192601
+  },
+  {
+    "tag": "Azure",
+    "difficulty": 0.8769194424757855
+  },
+  {
+    "tag": "Heroku",
+    "difficulty": 0.7345310435931308
+  },
+  {
+    "tag": "R",
+    "difficulty": 0.8915180983252295
+  },
+  {
+    "tag": "lambda",
+    "difficulty": 0.8264156285390714
+  },
+  {
+    "tag": "TensorFlow",
+    "difficulty": 0.7601336302895322
+  },
+  {
+    "tag": "EC2",
+    "difficulty": 0.9094778146694837
+  },
+  {
+    "tag": "C",
+    "difficulty": 0.9038121268790908
+  },
+  {
+    "tag": "IoT",
+    "difficulty": 0.9055871528939445
+  },
+  {
+    "tag": "gcp",
+    "difficulty": 0.9005395112662645
+  },
+  {
+    "tag": "AtCoder",
+    "difficulty": 0.8801028608164575
+  },
+  {
+    "tag": "Arduino",
+    "difficulty": 0.8661312849162013
+  },
+  {
+    "tag": "OpenCV",
+    "difficulty": 0.7672212389380529
+  },
+  {
+    "tag": "MachineLearning",
+    "difficulty": 0.7510597302504818
+  },
+  {
+    "tag": "競技プログラミング",
+    "difficulty": 0.8748685199098423
+  },
+  {
+    "tag": "新人プログラマ応援",
+    "difficulty": 0.9212629896083134
+  },
+  {
+    "tag": "初心者向け",
+    "difficulty": 0.9138551695269987
+  },
+  {
+    "tag": "数学",
+    "difficulty": 0.8919322709163348
+  },
+  {
+    "tag": "アルゴリズム",
+    "difficulty": 0.9306042884990253
+  },
+  {
+    "tag": "GoogleCloudPlatform",
+    "difficulty": 0.9146391752577319
+  },
+  {
+    "tag": "Keras",
+    "difficulty": 0.7727830451756832
+  },
+  {
+    "tag": "自然言語処理",
+    "difficulty": 0.8040264423076924
+  },
+  {
+    "tag": "データ分析",
+    "difficulty": 0.8263315380011969
+  },
+  {
+    "tag": "画像処理",
+    "difficulty": 0.8092382495948136
+  },
+  {
+    "tag": "深層学習",
+    "difficulty": 0.7952593917710198
+  },
+  {
+    "tag": "統計学",
+    "difficulty": 0.808849557522124
+  },
+  {
+    "tag": "電子工作",
+    "difficulty": 0.9097633136094674
+  },
+  {
+    "tag": "RDS",
+    "difficulty": 0.8652989449003515
+  },
+  {
+    "tag": "ディープラーニング",
+    "difficulty": 0.7990037359900374
+  },
+  {
+    "tag": "データサイエンス",
+    "difficulty": 0.7589665653495439
+  },
+  {
+    "tag": "強化学習",
+    "difficulty": 0.7712564543889845
+  },
+  {
+    "tag": "論文読み",
+    "difficulty": 0.4727758007117438
+  }
+]

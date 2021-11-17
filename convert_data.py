@@ -35,12 +35,12 @@ class UnionFind :
         return False
 
 def main():
-    files = glob.glob("./clustering_data/*.json")
+    files = glob.glob("./cluster_diff_sample_data/*.json")
     print(files)
     for file in files:
       print(file)
       res = []
-      f1 = open('./jaccard_data_100.json' ,'r', encoding="utf-8_sig")
+      f1 = open('./jaccard_data_400.json' ,'r', encoding="utf-8_sig")
       f2 = open(file,'r', encoding="utf-8_sig")
       jaccard_data = json.load(f1)
       diff_data = json.load(f2)
@@ -59,7 +59,7 @@ def main():
         obj['nodeName'] = diff_data[i]['tag']
         obj['diff'] = diff_data[i]['difficulty']
         obj['ID'] = i+1
-        obj['url'] = 'https://qiita.com/tags/{}'.format(obj['nodeName'].lower())
+        obj['url'] = 'https://qiita.com/tags/{}'.format(obj['nodeName'].lower()) if diff_data[i]["tag"][0] != "#" else 'https://qiita.com/tags/{}'.format("%23" + obj['nodeName'][1:].lower())
         obj['childNode'] = []
         res.append(obj)
         #print(obj["nodeName"])
@@ -92,7 +92,7 @@ def main():
       
       #print(res)
       #print(uf.parent)
-      with open("./clustering_data/graph_data/" + file.split("/")[2].split("_")[0] + "_graph_data.json", mode = "wt", encoding = "utf-8") as file:
+      with open("./cluster_diff_sample_data/graph_data/" + file.split("/")[2].split("_")[0] + "_graph_data.json", mode = "wt", encoding = "utf-8") as file:
         json.dump(res, file, ensure_ascii = False, indent = 2)
 
 if __name__ == '__main__':

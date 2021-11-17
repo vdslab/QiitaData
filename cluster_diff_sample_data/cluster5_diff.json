@@ -4,6 +4,10 @@
     "difficulty": 0.7084535390808453
   },
   {
+    "tag": "SSH",
+    "difficulty": 0.7693214285714285
+  },
+  {
     "tag": "PowerShell",
     "difficulty": 0.882607076350093
   },
@@ -25,7 +29,7 @@
   },
   {
     "tag": "Emacs",
-    "difficulty": 0.8144004014049171
+    "difficulty": 0.8165579528349223
   },
   {
     "tag": "homebrew",
@@ -82,6 +86,10 @@
   {
     "tag": "Linuxコマンド",
     "difficulty": 0.8963494132985659
+  },
+  {
+    "tag": ".net",
+    "difficulty": 0.9132604237867396
   },
   {
     "tag": "Jenkins",
@@ -172,6 +180,10 @@
     "difficulty": 0.9040834057341443
   },
   {
+    "tag": "Rails6",
+    "difficulty": 0.7107416879795396
+  },
+  {
     "tag": "Express",
     "difficulty": 0.6672519754170325
   },
@@ -189,7 +201,7 @@
   },
   {
     "tag": "HTTP",
-    "difficulty": 0.8306930693069308
+    "difficulty": 0.8306930693069307
   },
   {
     "tag": "ubuntu18.04",
@@ -245,7 +257,7 @@
   },
   {
     "tag": "LaTeX",
-    "difficulty": 0.8329886246122028
+    "difficulty": 0.8463288521199587
   },
   {
     "tag": "APIGateway",
@@ -261,7 +273,7 @@
   },
   {
     "tag": "どう書く",
-    "difficulty": 0.9413793103448274
+    "difficulty": 0.9413793103448276
   },
   {
     "tag": "kintone",
@@ -292,6 +304,10 @@
     "difficulty": 0.8507975460122699
   },
   {
+    "tag": "ネットワーク",
+    "difficulty": 0.9136865342163356
+  },
+  {
     "tag": "GitHubActions",
     "difficulty": 0.6583243823845327
   },
@@ -309,7 +325,7 @@
   },
   {
     "tag": "DynamoDB",
-    "difficulty": 0.8893617021276594
+    "difficulty": 0.8893617021276595
   },
   {
     "tag": "Firestore",
@@ -468,8 +484,12 @@
     "difficulty": 0.8118644067796609
   },
   {
+    "tag": "C言語",
+    "difficulty": 0.9235211267605633
+  },
+  {
     "tag": "設計",
-    "difficulty": 0.8998554913294796
+    "difficulty": 0.8984104046242773
   },
   {
     "tag": "chrome-extension",
@@ -500,7 +520,7 @@
     "difficulty": 0.5154761904761905
   },
   {
-    "tag": ".NETCore",
+    "tag": ".netcore",
     "difficulty": 0.8742313323572475
   },
   {
@@ -613,7 +633,7 @@
   },
   {
     "tag": "Clojure",
-    "difficulty": 0.8542207792207792
+    "difficulty": 0.8456168831168831
   },
   {
     "tag": "PowerBI",
@@ -697,7 +717,7 @@
   },
   {
     "tag": "yhpg",
-    "difficulty": 0.9153333333333332
+    "difficulty": 0.9153333333333334
   },
   {
     "tag": "ネタ",
@@ -765,11 +785,11 @@
   },
   {
     "tag": "PlayFramework",
-    "difficulty": 0.751498127340824
+    "difficulty": 0.7514981273408239
   },
   {
     "tag": "Cisco",
-    "difficulty": 0.8792553191489361
+    "difficulty": 0.8773049645390071
   },
   {
     "tag": "Vuetify",
@@ -830,5 +850,9 @@
   {
     "tag": "GIS",
     "difficulty": 0.9597722960151802
+  },
+  {
+    "tag": "C++11",
+    "difficulty": 0.8536821705426355
   }
 ]

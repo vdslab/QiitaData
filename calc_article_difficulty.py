@@ -3,95 +3,129 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 import json
 import numpy as np
+import glob
+import gc
 
-json_open = open("react_article_data.json", "r")
-json_data = json.load(json_open)
-N = int(input("特徴語をいくつにするか："))
-mecab = MeCab.Tagger ('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
+tags_data = json.load(open("./clustering_sample_data.json"))
+difficulty_list = []
+#N = int(input("特徴語をいくつにするか："))
+N = 10
+mecab = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
 
-mecab.parse('')#文字列がGCされるのを防ぐ
+mecab.parse('')  # 文字列がGCされるのを防ぐ
+
 POS = ["動詞", "名詞", "形容詞", "形容動詞"]
 proprietary_noun_page_cnt = {}
 
-def calc_tfidf(word_list, corpus, value):
+#TF-IDF計算
+def calc_tfidf(word_list, data_dic):
 
     global N
 
-    vectorizer = TfidfVectorizer(vocabulary=word_list)
-    tfidf_result = vectorizer.fit_transform(corpus).toarray()
-    max_tfidf = np.max(tfidf_result, axis=0)
-    word_tfidf_data = []
+    vectorizer = TfidfVectorizer()
+    tfidf_result = vectorizer.fit_transform(word_list).toarray()
 
-    for i in range(len(word_list)):
-        word_tfidf_data.append([word_list[i], max_tfidf[i]])
-
-    sorted_tfidf_result = sorted(word_tfidf_data, key=lambda x: x[1], reverse=True)
-
-    set_tfidf(sorted_tfidf_result[:N], value)
-
-
-def set_tfidf(sorted_tfids_result, value):
+    tfidf_label = vectorizer.get_feature_names()
+    print("TF-IDF計算終了")
+    del vectorizer
+    gc.collect()
     
-    value["tf-idf"] = {}
-    for values in sorted_tfids_result:
-        value["tf-idf"][values[0]] = values[1]
+    del word_list
+    gc.collect()
+    cnt = 0
+
+    for data_value in data_dic.values():
+        word_tfidf_data = [["", ""] for _ in range(len(tfidf_label))]
+        
+        print(cnt)
+        for j in range(len(tfidf_label)):
+            word_tfidf_data[j][0] = tfidf_label[j]
+            word_tfidf_data[j][1] = tfidf_result[cnt][j]
+
+        word_tfidf_data = sorted(word_tfidf_data, key=lambda x: x[1], reverse=True)
+        set_tfidf(word_tfidf_data[:N], data_value)
+        cnt += 1
     
-
-def count_words(text, dic, page_cnt):
-
-    word_total_count = 0
-
-    while text:
-
-        #単語を取得
-        word = text.surface
-        #品詞を取得
-        pos = text.feature.split(",")[0]
-        # 単語かどうかの判定
-        if pos in POS:
-            word_total_count += 1
-
-            # 固有名詞かどうかの判定
-            if text.feature.split(",")[1] == "固有名詞":
-
-                # 辞書にキーがあるかどうかの判定
-                if word not in dic.keys():
-                    dic[word] = 0
-                    if word not in page_cnt.keys():
-                        page_cnt[word] = 0
-                    
-                    page_cnt[word] += 1
-
-                dic[word] += 1
-        text = text.next
-
-def calc_article_difficulty(data, page_cnt, all_page_cnt):
-
-    global N
-
-    diff = 0
-
-    for key in data["tf-idf"].keys():
-        diff += (all_page_cnt - page_cnt[key]) / all_page_cnt
-
-    data["article_difficulty"] = diff / N
+    del tfidf_result, tfidf_label, word_tfidf_data
+    gc.collect()
+    print("各タグのTF-IDF上位" + str(N) + "件の単語を算出終了")
 
 
-for value in json_data.values():
-    proprietary_noun_dic = {}
-    count_words(mecab.parseToNode(value["body"]), proprietary_noun_dic, proprietary_noun_page_cnt)
+def set_tfidf(word_tfidf_data, value):
 
-    corpus = value["body"].replace(".", "。").replace("\n", "").split("。")
-    word_list = list(proprietary_noun_dic.keys())
+    for word_data in word_tfidf_data:
+        value["tfidf_words"].append(word_data[0])
+        
 
-    calc_tfidf(word_list, corpus, value)
-
-
-for value in json_data.values():
-    calc_article_difficulty(value, proprietary_noun_page_cnt, len(json_data))
+cnt = 0
+cluster_num = 1
+#クラスタ毎の難易度計算
+for tags in tags_data.values():
+    #クラスタリング毎のデータ格納用List
+    tags_diff_data = []
+    cluster_size = len(tags)
+    data_dic = {}
+    #dtype=str にすると文字数制限がかかっているらしくバグるので注意
+    tag_words_list = np.empty(cluster_size, dtype=object)
     
-    del value["body"]
+    #TF-IDF算出用のデータ生成
+    for i in range(1, 400, 100):
+        tags_data = json.load(open("./tag_words_count_data/tag_words_count_data_" + str(i) + "_" + str(i + 99) + ".json"))
+            #print(len(tags_data))
+        for tag_data in tags_data:
+            #読み込んだデータが現在のクラスタに属していなければスルー
+            if tag_data["tag"] not in tags:
+                continue
 
+            words = ""
+            data_dic[tag_data["tag"]] = {
+                "tag": tag_data["tag"],
+                "tfidf_words":[],
+                "diff":0
+            }
+    
+            for word, word_count in tag_data["words"].items():
+                for i in range(word_count):
+                    if words != "":
+                        words += " "
+                    words += word
+                
+            tag_words_list[cnt] = words
+            
+    del words
+    gc.collect()
 
-with open("react_article_difficulty_data.json", mode = "wt", encoding = "utf-8") as file:
-    json.dump(json_data, file, ensure_ascii = False, indent = 2)
+    #TF-IDF計算
+    calc_tfidf(tag_words_list, data_dic)
+    
+    #ここから難易度計算
+    for tag in tags:
+        #.から始まるファイルは作成できないのでそのタグの時のみ例外的に処理を加える
+        json_open = open("../zemi_data/honban_data/" + tag.lower() + "_data.json", "r") if tag[0] != "." else open("../zemi_data/honban_data/" + tag[1:].lower() + "_data.json", "r")
+        json_data = json.load(json_open)
+        del json_open
+        words_cnt = {}
+        for tfidf_word in data_dic[tag]["tfidf_words"]:
+            words_cnt[tfidf_word] = 0
+        
+        for value in json_data:
+            for tfidf_word in data_dic[tag]["tfidf_words"]:
+                for text in value["body"]:
+                    if tfidf_word in text:
+                        words_cnt[tfidf_word] += 1
+
+        text_size = len(json_data[0]["body"])
+        for tfidf_word in data_dic[tag]["tfidf_words"]:
+            data_dic[tag]["diff"] += (text_size - words_cnt[tfidf_word]) / text_size
+
+    create_data = []
+    for key, value in data_dic.items():
+        create_data.append({
+            "tag": value["tag"],
+            "difficulty": value["diff"] / N
+        })
+    
+    print("難易度計算終了")
+    with open("./cluster_diff_sample_data/cluster" + str(cluster_num) + "_diff.json", mode="wt", encoding="utf-8") as f:
+        json.dump(create_data, f, ensure_ascii=False, indent=2)
+    cluster_num += 1

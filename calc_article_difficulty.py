@@ -7,7 +7,6 @@ import glob
 import gc
 
 tags_data = json.load(open("./clustering_sample_data.json"))
-difficulty_list = []
 #N = int(input("特徴語をいくつにするか："))
 N = 10
 mecab = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
@@ -15,16 +14,16 @@ mecab = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
 mecab.parse('')  # 文字列がGCされるのを防ぐ
 
 POS = ["動詞", "名詞", "形容詞", "形容動詞"]
-proprietary_noun_page_cnt = {}
 
-#TF-IDF計算
 def calc_tfidf(word_list, data_dic):
 
     global N
 
     vectorizer = TfidfVectorizer()
+    
     tfidf_result = vectorizer.fit_transform(word_list).toarray()
 
+    #tfidf_result = np.max(tfidf_result, axis=0)
     tfidf_label = vectorizer.get_feature_names()
     print("TF-IDF計算終了")
     del vectorizer
@@ -57,7 +56,6 @@ def set_tfidf(word_tfidf_data, value):
         value["tfidf_words"].append(word_data[0])
         
 
-cnt = 0
 cluster_num = 1
 #クラスタ毎の難易度計算
 for tags in tags_data.values():
@@ -67,6 +65,8 @@ for tags in tags_data.values():
     data_dic = {}
     #dtype=str にすると文字数制限がかかっているらしくバグるので注意
     tag_words_list = np.empty(cluster_size, dtype=object)
+    #print(tag_words_list)
+    cnt = 0
     
     #TF-IDF算出用のデータ生成
     for i in range(1, 400, 100):
@@ -91,6 +91,7 @@ for tags in tags_data.values():
                     words += word
                 
             tag_words_list[cnt] = words
+            cnt += 1
             
     del words
     gc.collect()
@@ -124,8 +125,8 @@ for tags in tags_data.values():
             "tag": value["tag"],
             "difficulty": value["diff"] / N
         })
-    
     print("難易度計算終了")
+    
     with open("./cluster_diff_sample_data/cluster" + str(cluster_num) + "_diff.json", mode="wt", encoding="utf-8") as f:
         json.dump(create_data, f, ensure_ascii=False, indent=2)
     cluster_num += 1

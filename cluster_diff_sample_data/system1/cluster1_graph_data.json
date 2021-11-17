@@ -1,0 +1,748 @@
+[
+  {
+    "nodeName": "Git",
+    "diff": 0.7763153310104529,
+    "ID": 1,
+    "url": "https://qiita.com/tags/git",
+    "childNode": [
+      15,
+      27,
+      49,
+      11,
+      77
+    ],
+    "level": 0
+  },
+  {
+    "nodeName": "Vue.js",
+    "diff": 0.7390497553017945,
+    "ID": 2,
+    "url": "https://qiita.com/tags/vue.js",
+    "childNode": [
+      14,
+      37,
+      25,
+      21,
+      26
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "Laravel",
+    "diff": 0.8144287915474356,
+    "ID": 3,
+    "url": "https://qiita.com/tags/laravel",
+    "childNode": [],
+    "level": 1
+  },
+  {
+    "nodeName": "React",
+    "diff": 0.7717707633758675,
+    "ID": 4,
+    "url": "https://qiita.com/tags/react",
+    "childNode": [
+      3,
+      11,
+      50
+    ],
+    "level": 0
+  },
+  {
+    "nodeName": "Windows",
+    "diff": 0.8818767249310028,
+    "ID": 5,
+    "url": "https://qiita.com/tags/windows",
+    "childNode": [
+      54
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "TypeScript",
+    "diff": 0.7878264592550307,
+    "ID": 6,
+    "url": "https://qiita.com/tags/typescript",
+    "childNode": [
+      24,
+      23
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "Xcode",
+    "diff": 0.8290771737520368,
+    "ID": 7,
+    "url": "https://qiita.com/tags/xcode",
+    "childNode": [
+      42,
+      23,
+      58
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "Ubuntu",
+    "diff": 0.8691209281570726,
+    "ID": 8,
+    "url": "https://qiita.com/tags/ubuntu",
+    "childNode": [],
+    "level": 3
+  },
+  {
+    "nodeName": "CentOS",
+    "diff": 0.8517247987734764,
+    "ID": 9,
+    "url": "https://qiita.com/tags/centos",
+    "childNode": [
+      71
+    ],
+    "level": 3
+  },
+  {
+    "nodeName": "jQuery",
+    "diff": 0.8160630841121496,
+    "ID": 10,
+    "url": "https://qiita.com/tags/jquery",
+    "childNode": [
+      8
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "VSCode",
+    "diff": 0.803960396039604,
+    "ID": 11,
+    "url": "https://qiita.com/tags/vscode",
+    "childNode": [
+      26
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "Kotlin",
+    "diff": 0.8150631258162822,
+    "ID": 12,
+    "url": "https://qiita.com/tags/kotlin",
+    "childNode": [
+      8,
+      9,
+      72,
+      18
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "kubernetes",
+    "diff": 0.78073352954494,
+    "ID": 13,
+    "url": "https://qiita.com/tags/kubernetes",
+    "childNode": [
+      34,
+      39,
+      78,
+      29,
+      33
+    ],
+    "level": 3
+  },
+  {
+    "nodeName": "Firebase",
+    "diff": 0.7852709587772116,
+    "ID": 14,
+    "url": "https://qiita.com/tags/firebase",
+    "childNode": [
+      54
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "MacOSX",
+    "diff": 0.9015151515151516,
+    "ID": 15,
+    "url": "https://qiita.com/tags/macosx",
+    "childNode": [],
+    "level": 1
+  },
+  {
+    "nodeName": "Vim",
+    "diff": 0.8168958742632613,
+    "ID": 16,
+    "url": "https://qiita.com/tags/vim",
+    "childNode": [
+      30
+    ],
+    "level": 4
+  },
+  {
+    "nodeName": "SQL",
+    "diff": 0.8774709302325581,
+    "ID": 17,
+    "url": "https://qiita.com/tags/sql",
+    "childNode": [],
+    "level": 4
+  },
+  {
+    "nodeName": "WordPress",
+    "diff": 0.8330426115125841,
+    "ID": 18,
+    "url": "https://qiita.com/tags/wordpress",
+    "childNode": [
+      17
+    ],
+    "level": 3
+  },
+  {
+    "nodeName": "PostgreSQL",
+    "diff": 0.8505251520176893,
+    "ID": 19,
+    "url": "https://qiita.com/tags/postgresql",
+    "childNode": [
+      44,
+      45
+    ],
+    "level": 5
+  },
+  {
+    "nodeName": "lambda",
+    "diff": 0.8252548131370329,
+    "ID": 20,
+    "url": "https://qiita.com/tags/lambda",
+    "childNode": [
+      26
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "Windows10",
+    "diff": 0.8222680979906414,
+    "ID": 21,
+    "url": "https://qiita.com/tags/windows10",
+    "childNode": [
+      75
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "nginx",
+    "diff": 0.7221716712162574,
+    "ID": 22,
+    "url": "https://qiita.com/tags/nginx",
+    "childNode": [
+      7
+    ],
+    "level": 0
+  },
+  {
+    "nodeName": "HTML5",
+    "diff": 0.8536195549984331,
+    "ID": 23,
+    "url": "https://qiita.com/tags/html5",
+    "childNode": [
+      47
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "Excel",
+    "diff": 0.9273142112125164,
+    "ID": 24,
+    "url": "https://qiita.com/tags/excel",
+    "childNode": [],
+    "level": 2
+  },
+  {
+    "nodeName": "ShellScript",
+    "diff": 0.8910307898259706,
+    "ID": 25,
+    "url": "https://qiita.com/tags/shellscript",
+    "childNode": [],
+    "level": 2
+  },
+  {
+    "nodeName": "GoogleAppsScript",
+    "diff": 0.8763149078726968,
+    "ID": 26,
+    "url": "https://qiita.com/tags/googleappsscript",
+    "childNode": [
+      61
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "Scala",
+    "diff": 0.8717878057182226,
+    "ID": 27,
+    "url": "https://qiita.com/tags/scala",
+    "childNode": [
+      36,
+      51
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "nuxt.js",
+    "diff": 0.6564717477003942,
+    "ID": 28,
+    "url": "https://qiita.com/tags/nuxt.js",
+    "childNode": [
+      69,
+      62,
+      77
+    ],
+    "level": 0
+  },
+  {
+    "nodeName": "api",
+    "diff": 0.8241186736474694,
+    "ID": 29,
+    "url": "https://qiita.com/tags/api",
+    "childNode": [
+      64
+    ],
+    "level": 4
+  },
+  {
+    "nodeName": "ポエム",
+    "diff": 0.8862918044836456,
+    "ID": 30,
+    "url": "https://qiita.com/tags/ポエム",
+    "childNode": [],
+    "level": 5
+  },
+  {
+    "nodeName": "Ansible",
+    "diff": 0.7122304978439826,
+    "ID": 31,
+    "url": "https://qiita.com/tags/ansible",
+    "childNode": [
+      25,
+      67,
+      38
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "Apache",
+    "diff": 0.744578313253012,
+    "ID": 32,
+    "url": "https://qiita.com/tags/apache",
+    "childNode": [
+      8
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "Rust",
+    "diff": 0.8205614867536578,
+    "ID": 33,
+    "url": "https://qiita.com/tags/rust",
+    "childNode": [
+      65
+    ],
+    "level": 4
+  },
+  {
+    "nodeName": "oracle",
+    "diff": 0.8656143344709898,
+    "ID": 34,
+    "url": "https://qiita.com/tags/oracle",
+    "childNode": [],
+    "level": 4
+  },
+  {
+    "nodeName": "pandas",
+    "diff": 0.7502739148756847,
+    "ID": 35,
+    "url": "https://qiita.com/tags/pandas",
+    "childNode": [
+      13,
+      46
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "S3",
+    "diff": 0.8772423025435072,
+    "ID": 36,
+    "url": "https://qiita.com/tags/s3",
+    "childNode": [],
+    "level": 2
+  },
+  {
+    "nodeName": "VBA",
+    "diff": 0.9531264262893655,
+    "ID": 37,
+    "url": "https://qiita.com/tags/vba",
+    "childNode": [],
+    "level": 2
+  },
+  {
+    "nodeName": "Qiita",
+    "diff": 0.9360368663594469,
+    "ID": 38,
+    "url": "https://qiita.com/tags/qiita",
+    "childNode": [],
+    "level": 2
+  },
+  {
+    "nodeName": "Elixir",
+    "diff": 0.8305322128851541,
+    "ID": 39,
+    "url": "https://qiita.com/tags/elixir",
+    "childNode": [
+      19
+    ],
+    "level": 4
+  },
+  {
+    "nodeName": "Twitter",
+    "diff": 0.7862745098039216,
+    "ID": 40,
+    "url": "https://qiita.com/tags/twitter",
+    "childNode": [
+      12
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "Haskell",
+    "diff": 0.9099204244031831,
+    "ID": 41,
+    "url": "https://qiita.com/tags/haskell",
+    "childNode": [],
+    "level": 3
+  },
+  {
+    "nodeName": "Web",
+    "diff": 0.8368753287743294,
+    "ID": 42,
+    "url": "https://qiita.com/tags/web",
+    "childNode": [
+      66,
+      41
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "Elasticsearch",
+    "diff": 0.7787089467723669,
+    "ID": 43,
+    "url": "https://qiita.com/tags/elasticsearch",
+    "childNode": [
+      75,
+      72
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "プログラミング",
+    "diff": 0.9235434007134362,
+    "ID": 44,
+    "url": "https://qiita.com/tags/プログラミング",
+    "childNode": [],
+    "level": 6
+  },
+  {
+    "nodeName": "ibmcloud",
+    "diff": 0.8822143698468785,
+    "ID": 45,
+    "url": "https://qiita.com/tags/ibmcloud",
+    "childNode": [],
+    "level": 6
+  },
+  {
+    "nodeName": "自然言語処理",
+    "diff": 0.8516826923076923,
+    "ID": 46,
+    "url": "https://qiita.com/tags/自然言語処理",
+    "childNode": [],
+    "level": 3
+  },
+  {
+    "nodeName": "セキュリティ",
+    "diff": 0.8585979628520072,
+    "ID": 47,
+    "url": "https://qiita.com/tags/セキュリティ",
+    "childNode": [],
+    "level": 3
+  },
+  {
+    "nodeName": "Jupyter",
+    "diff": 0.7307984790874524,
+    "ID": 48,
+    "url": "https://qiita.com/tags/jupyter",
+    "childNode": [
+      6
+    ],
+    "level": 0
+  },
+  {
+    "nodeName": "numpy",
+    "diff": 0.7899810964083176,
+    "ID": 49,
+    "url": "https://qiita.com/tags/numpy",
+    "childNode": [],
+    "level": 1
+  },
+  {
+    "nodeName": "AI",
+    "diff": 0.8165120593692021,
+    "ID": 50,
+    "url": "https://qiita.com/tags/ai",
+    "childNode": [
+      53
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "Perl",
+    "diff": 0.8793745841650032,
+    "ID": 51,
+    "url": "https://qiita.com/tags/perl",
+    "childNode": [],
+    "level": 2
+  },
+  {
+    "nodeName": "環境構築",
+    "diff": 0.8678523489932888,
+    "ID": 52,
+    "url": "https://qiita.com/tags/環境構築",
+    "childNode": [
+      8
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "Blockchain",
+    "diff": 0.8386178861788618,
+    "ID": 53,
+    "url": "https://qiita.com/tags/blockchain",
+    "childNode": [
+      47
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "AdventCalendar",
+    "diff": 0.8990888382687927,
+    "ID": 54,
+    "url": "https://qiita.com/tags/adventcalendar",
+    "childNode": [],
+    "level": 3
+  },
+  {
+    "nodeName": "MongoDB",
+    "diff": 0.7984743411927878,
+    "ID": 55,
+    "url": "https://qiita.com/tags/mongodb",
+    "childNode": [
+      29
+    ],
+    "level": 3
+  },
+  {
+    "nodeName": "メモ",
+    "diff": 0.9646616541353381,
+    "ID": 56,
+    "url": "https://qiita.com/tags/メモ",
+    "childNode": [],
+    "level": 2
+  },
+  {
+    "nodeName": "GitLab",
+    "diff": 0.7544476327116213,
+    "ID": 57,
+    "url": "https://qiita.com/tags/gitlab",
+    "childNode": [
+      54
+    ],
+    "level": 2
+  },
+  {
+    "nodeName": "入門",
+    "diff": 0.9057430007178751,
+    "ID": 58,
+    "url": "https://qiita.com/tags/入門",
+    "childNode": [],
+    "level": 2
+  },
+  {
+    "nodeName": "正規表現",
+    "diff": 0.8145357686453577,
+    "ID": 59,
+    "url": "https://qiita.com/tags/正規表現",
+    "childNode": [
+      36,
+      56
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "google",
+    "diff": 0.8669019607843136,
+    "ID": 60,
+    "url": "https://qiita.com/tags/google",
+    "childNode": [
+      5
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "Unity3D",
+    "diff": 0.9079073482428115,
+    "ID": 61,
+    "url": "https://qiita.com/tags/unity3d",
+    "childNode": [],
+    "level": 3
+  },
+  {
+    "nodeName": "テスト",
+    "diff": 0.8934102141680395,
+    "ID": 62,
+    "url": "https://qiita.com/tags/テスト",
+    "childNode": [],
+    "level": 1
+  },
+  {
+    "nodeName": "Security",
+    "diff": 0.8285714285714286,
+    "ID": 63,
+    "url": "https://qiita.com/tags/security",
+    "childNode": [
+      7
+    ],
+    "level": 0
+  },
+  {
+    "nodeName": "DB",
+    "diff": 0.890818181818182,
+    "ID": 64,
+    "url": "https://qiita.com/tags/db",
+    "childNode": [],
+    "level": 5
+  },
+  {
+    "nodeName": "BigQuery",
+    "diff": 0.8659922928709056,
+    "ID": 65,
+    "url": "https://qiita.com/tags/bigquery",
+    "childNode": [],
+    "level": 5
+  },
+  {
+    "nodeName": "Bluemix",
+    "diff": 0.85463687150838,
+    "ID": 66,
+    "url": "https://qiita.com/tags/bluemix",
+    "childNode": [],
+    "level": 3
+  },
+  {
+    "nodeName": "java8",
+    "diff": 0.8986206896551725,
+    "ID": 67,
+    "url": "https://qiita.com/tags/java8",
+    "childNode": [],
+    "level": 2
+  },
+  {
+    "nodeName": "CTF",
+    "diff": 0.7567596566523604,
+    "ID": 68,
+    "url": "https://qiita.com/tags/ctf",
+    "childNode": [
+      39
+    ],
+    "level": 3
+  },
+  {
+    "nodeName": "Kaggle",
+    "diff": 0.7833333333333333,
+    "ID": 69,
+    "url": "https://qiita.com/tags/kaggle",
+    "childNode": [],
+    "level": 1
+  },
+  {
+    "nodeName": "scikit-learn",
+    "diff": 0.7287655719139299,
+    "ID": 70,
+    "url": "https://qiita.com/tags/scikit-learn",
+    "childNode": [
+      57,
+      76
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "Julia",
+    "diff": 0.9028058361391695,
+    "ID": 71,
+    "url": "https://qiita.com/tags/julia",
+    "childNode": [],
+    "level": 4
+  },
+  {
+    "nodeName": "勉強会",
+    "diff": 0.8364497041420119,
+    "ID": 72,
+    "url": "https://qiita.com/tags/勉強会",
+    "childNode": [],
+    "level": 3
+  },
+  {
+    "nodeName": "serverless",
+    "diff": 0.7445569620253164,
+    "ID": 73,
+    "url": "https://qiita.com/tags/serverless",
+    "childNode": [
+      35,
+      58
+    ],
+    "level": 1
+  },
+  {
+    "nodeName": "個人開発",
+    "diff": 0.8242078580481623,
+    "ID": 74,
+    "url": "https://qiita.com/tags/個人開発",
+    "childNode": [
+      65
+    ],
+    "level": 4
+  },
+  {
+    "nodeName": "SoftLayer",
+    "diff": 0.9231966053748231,
+    "ID": 75,
+    "url": "https://qiita.com/tags/softlayer",
+    "childNode": [],
+    "level": 3
+  },
+  {
+    "nodeName": "Bitcoin",
+    "diff": 0.8128125,
+    "ID": 76,
+    "url": "https://qiita.com/tags/bitcoin",
+    "childNode": [],
+    "level": 2
+  },
+  {
+    "nodeName": "GPU",
+    "diff": 0.8667814113597245,
+    "ID": 77,
+    "url": "https://qiita.com/tags/gpu",
+    "childNode": [],
+    "level": 1
+  },
+  {
+    "nodeName": "人工知能",
+    "diff": 0.7901960784313725,
+    "ID": 78,
+    "url": "https://qiita.com/tags/人工知能",
+    "childNode": [
+      30
+    ],
+    "level": 4
+  }
+]

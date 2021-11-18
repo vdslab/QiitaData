@@ -18,7 +18,7 @@ data3  =  json.load(json_open3)
 #data4  =  json.load(json_open4)
 #data5  =  json.load(json_open5)
 #all_words_data = [data1,data2,data3,data4,data5]
-all_words_data = [data1,data2,data3]
+#all_words_data = [data1,data2,data3]
 
 tags = []
 

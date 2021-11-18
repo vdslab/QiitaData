@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 def set_tfidf_data(tags):
-  N = int(input("何個のファイルを読み込みますか？:"))
+  N = 2
   cluster_size = N * 100
 
   #dtype=str にすると文字数制限がかかっているらしくバグるので注意
@@ -23,7 +23,7 @@ def set_tfidf_data(tags):
         for i in range(word_count):
           if words != "":
               words += " "
-        words += word
+          words += word
                 
       tag_words_list[cnt] = words
       cnt += 1
@@ -39,30 +39,31 @@ def calc_tfidf(words_list):
   return tfidf_result
 
 
-json_open = open("./all_words.json", "r")
 tags = []
 all_words_data = set_tfidf_data(tags)
-text_data      = json.load(json_open)
-print(len(all_words_data[0]))
+#print(len(all_words_data[0]))
 
 wordVec = calc_tfidf(all_words_data)
-
 #クラスタリングの処理
-data = np.array(wordVec)
-cm_result = cmeans(data.T, 5, 1.3, 0.003, 10000)
+k = 4
+m = 1.1
 
-x = 0.2 #この値を超えたもののみ採用する
-BIGCNT = 0
+with open('datasize200_cluster4.txt','w') as f:
+  while m < 1.3:
+    cm_result = cmeans(wordVec.T, k, m, 0.003, 10000)
 
-#cm_result[1]に結果が入ってる
+    x =  1/k #この値を超えたもののみ採用する
+    BIGCNT = 0
 
-for i in cm_result[1]:
-    BIGCNT += 1
-    cnt = 0
-    print(str(BIGCNT)+":",end="")
-    for j in i:
-        cnt += 1
-        if j > x:
-            print(tags[cnt-1]+" ", end ="")
-    print("")
-    
+    #cm_result[1]に結果が入ってる
+    print("m = "+str(m),file=f)
+    for i in cm_result[1]:
+        BIGCNT += 1
+        cnt = 0
+        print("cluster"+str(BIGCNT)+":",end="",file=f)
+        for j in i:
+            cnt += 1
+            if j > x:
+                print(tags[cnt-1]+" ", end ="",file=f)
+        print("",file=f)
+    m += 0.05

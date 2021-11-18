@@ -6,7 +6,7 @@ import numpy as np
 import glob
 import gc
 
-tags_data = json.load(open("./clustering_sample_data.json"))
+tags_data = json.load(open("./cluster_data_test.json"))
 #N = int(input("特徴語をいくつにするか："))
 N = 10
 mecab = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
@@ -69,7 +69,7 @@ for tags in tags_data.values():
     cnt = 0
     
     #TF-IDF算出用のデータ生成
-    for i in range(1, 400, 100):
+    for i in range(1, 300, 100):
         tags_data = json.load(open("./tag_words_count_data/tag_words_count_data_" + str(i) + "_" + str(i + 99) + ".json"))
             #print(len(tags_data))
         for tag_data in tags_data:

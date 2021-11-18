@@ -1,238 +1,206 @@
 [
   {
-    "tag": "Python",
-    "difficulty": 0.8237525145011034
-  },
-  {
     "tag": "JavaScript",
     "difficulty": 0.8419486996793729
   },
   {
-    "tag": "Ruby",
-    "difficulty": 0.8234580767408811
-  },
-  {
     "tag": "Rails",
-    "difficulty": 0.7681298226614323
-  },
-  {
-    "tag": "AWS",
-    "difficulty": 0.9181317284055268
-  },
-  {
-    "tag": "PHP",
-    "difficulty": 0.8821163196037061
-  },
-  {
-    "tag": "Docker",
-    "difficulty": 0.766608187134503
-  },
-  {
-    "tag": "iOS",
-    "difficulty": 0.8760668457176963
-  },
-  {
-    "tag": "Java",
-    "difficulty": 0.8893224440411374
-  },
-  {
-    "tag": "Swift",
-    "difficulty": 0.8124142704335242
+    "difficulty": 0.7712434005685664
   },
   {
     "tag": "初心者",
     "difficulty": 0.9195670274771024
   },
   {
-    "tag": "Android",
-    "difficulty": 0.8683056832567125
-  },
-  {
-    "tag": "Linux",
-    "difficulty": 0.8911594746716698
-  },
-  {
     "tag": "Node.js",
     "difficulty": 0.7853513200364148
   },
   {
-    "tag": "Python3",
-    "difficulty": 0.8241766284459624
-  },
-  {
-    "tag": "C#",
-    "difficulty": 0.9038121268790908
-  },
-  {
-    "tag": "Unity",
-    "difficulty": 0.8768699224950975
-  },
-  {
-    "tag": "Mac",
-    "difficulty": 0.8873791149750904
-  },
-  {
     "tag": "CSS",
-    "difficulty": 0.8321581308021277
+    "difficulty": 0.8259622405340565
   },
   {
-    "tag": "Go",
-    "difficulty": 0.8413691451031772
+    "tag": "Vue.js",
+    "difficulty": 0.7427508156606851
   },
   {
-    "tag": "MySQL",
-    "difficulty": 0.8369888475836431
+    "tag": "React",
+    "difficulty": 0.7789791806581599
   },
   {
     "tag": "HTML",
     "difficulty": 0.8342502218278616
   },
   {
-    "tag": "機械学習",
-    "difficulty": 0.8270772946859903
+    "tag": "TypeScript",
+    "difficulty": 0.7857856429285002
   },
   {
-    "tag": "C++",
-    "difficulty": 0.8413295857265061
+    "tag": "jQuery",
+    "difficulty": 0.8160630841121496
   },
   {
-    "tag": "GitHub",
-    "difficulty": 0.7800440871369295
+    "tag": "Firebase",
+    "difficulty": 0.7852709587772116
   },
   {
-    "tag": "RaspberryPi",
-    "difficulty": 0.8467078499321984
+    "tag": "HTML5",
+    "difficulty": 0.8536195549984331
   },
   {
-    "tag": "DeepLearning",
-    "difficulty": 0.7713181367690781
+    "tag": "Angular",
+    "difficulty": 0.6226769540422676
   },
   {
-    "tag": "Bash",
-    "difficulty": 0.8786071817192601
+    "tag": "nuxt.js",
+    "difficulty": 0.6564717477003942
   },
   {
-    "tag": "Azure",
-    "difficulty": 0.8769194424757855
+    "tag": "Chrome",
+    "difficulty": 0.8551823023351085
   },
   {
-    "tag": "Heroku",
-    "difficulty": 0.7345310435931308
-  },
-  {
-    "tag": "R",
-    "difficulty": 0.8915180983252295
-  },
-  {
-    "tag": "lambda",
-    "difficulty": 0.8264156285390714
-  },
-  {
-    "tag": "TensorFlow",
-    "difficulty": 0.7601336302895322
-  },
-  {
-    "tag": "EC2",
-    "difficulty": 0.9094778146694837
-  },
-  {
-    "tag": "C",
-    "difficulty": 0.9038121268790908
-  },
-  {
-    "tag": "IoT",
-    "difficulty": 0.9055871528939445
-  },
-  {
-    "tag": "gcp",
-    "difficulty": 0.9005395112662645
-  },
-  {
-    "tag": "AtCoder",
-    "difficulty": 0.8801028608164575
-  },
-  {
-    "tag": "Arduino",
-    "difficulty": 0.8661312849162013
-  },
-  {
-    "tag": "OpenCV",
-    "difficulty": 0.7672212389380529
-  },
-  {
-    "tag": "MachineLearning",
-    "difficulty": 0.7510597302504818
-  },
-  {
-    "tag": "競技プログラミング",
-    "difficulty": 0.8748685199098423
-  },
-  {
-    "tag": "新人プログラマ応援",
-    "difficulty": 0.9212629896083134
+    "tag": "JSON",
+    "difficulty": 0.8160593220338983
   },
   {
     "tag": "初心者向け",
     "difficulty": 0.9138551695269987
   },
   {
-    "tag": "数学",
-    "difficulty": 0.8919322709163348
+    "tag": "npm",
+    "difficulty": 0.7113407015857761
   },
   {
-    "tag": "アルゴリズム",
-    "difficulty": 0.9306042884990253
+    "tag": "webpack",
+    "difficulty": 0.43347921225382935
   },
   {
-    "tag": "GoogleCloudPlatform",
-    "difficulty": 0.9146391752577319
+    "tag": "Rails5",
+    "difficulty": 0.733089005235602
   },
   {
-    "tag": "Keras",
-    "difficulty": 0.7727830451756832
+    "tag": "Web",
+    "difficulty": 0.8368753287743294
   },
   {
-    "tag": "自然言語処理",
-    "difficulty": 0.8040264423076924
+    "tag": "CSS3",
+    "difficulty": 0.8348706411698539
   },
   {
-    "tag": "データ分析",
-    "difficulty": 0.8263315380011969
+    "tag": "Markdown",
+    "difficulty": 0.8405496354458777
   },
   {
-    "tag": "画像処理",
-    "difficulty": 0.8092382495948136
+    "tag": "reactnative",
+    "difficulty": 0.7559188275084555
   },
   {
-    "tag": "深層学習",
-    "difficulty": 0.7952593917710198
+    "tag": "プログラミング",
+    "difficulty": 0.9235434007134364
   },
   {
-    "tag": "統計学",
-    "difficulty": 0.808849557522124
+    "tag": "AdventCalendar",
+    "difficulty": 0.8990888382687927
   },
   {
-    "tag": "電子工作",
-    "difficulty": 0.9097633136094674
+    "tag": "Bootstrap",
+    "difficulty": 0.7809833694866233
   },
   {
-    "tag": "RDS",
-    "difficulty": 0.8652989449003515
+    "tag": "redux",
+    "difficulty": 0.6143420015760441
   },
   {
-    "tag": "ディープラーニング",
-    "difficulty": 0.7990037359900374
+    "tag": "Sass",
+    "difficulty": 0.7243243243243243
   },
   {
-    "tag": "データサイエンス",
-    "difficulty": 0.7589665653495439
+    "tag": "Rails6",
+    "difficulty": 0.7128729752770674
   },
   {
-    "tag": "強化学習",
-    "difficulty": 0.7712564543889845
+    "tag": "Express",
+    "difficulty": 0.6401229148375769
   },
   {
-    "tag": "論文読み",
-    "difficulty": 0.4727758007117438
+    "tag": "プログラミング初心者",
+    "difficulty": 0.8993738819320216
+  },
+  {
+    "tag": "フロントエンド",
+    "difficulty": 0.779609756097561
+  },
+  {
+    "tag": "Electron",
+    "difficulty": 0.6433771486349849
+  },
+  {
+    "tag": "es6",
+    "difficulty": 0.7948717948717949
+  },
+  {
+    "tag": "gulp",
+    "difficulty": 0.5711133400200602
+  },
+  {
+    "tag": "ゲーム制作",
+    "difficulty": 0.9212655601659752
+  },
+  {
+    "tag": "UI",
+    "difficulty": 0.9011144883485308
+  },
+  {
+    "tag": "kintone",
+    "difficulty": 0.6791284403669725
+  },
+  {
+    "tag": "CoffeeScript",
+    "difficulty": 0.8087389380530974
+  },
+  {
+    "tag": "WebGL",
+    "difficulty": 0.7867681498829041
+  },
+  {
+    "tag": "Firestore",
+    "difficulty": 0.7736842105263158
+  },
+  {
+    "tag": "scss",
+    "difficulty": 0.7216494845360826
+  },
+  {
+    "tag": "GraphQL",
+    "difficulty": 0.7608305274971942
+  },
+  {
+    "tag": "Ajax",
+    "difficulty": 0.7621489621489622
+  },
+  {
+    "tag": "memo",
+    "difficulty": 0.9084563758389261
+  },
+  {
+    "tag": "個人開発",
+    "difficulty": 0.8242078580481623
+  },
+  {
+    "tag": "next.js",
+    "difficulty": 0.7441138421733504
+  },
+  {
+    "tag": "chrome-extension",
+    "difficulty": 0.7137982195845698
+  },
+  {
+    "tag": "Vuex",
+    "difficulty": 0.6180672268907563
+  },
+  {
+    "tag": "babel",
+    "difficulty": 0.5697916666666667
   }
 ]

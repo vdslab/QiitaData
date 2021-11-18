@@ -1,75 +1,107 @@
 [
   {
-    "tag": "Git",
-    "difficulty": 0.7763153310104529
+    "tag": "Ruby",
+    "difficulty": 0.8321174798673614
   },
   {
-    "tag": "Vue.js",
-    "difficulty": 0.7390497553017945
+    "tag": "Rails",
+    "difficulty": 0.7681298226614323
+  },
+  {
+    "tag": "AWS",
+    "difficulty": 0.9181317284055268
+  },
+  {
+    "tag": "PHP",
+    "difficulty": 0.8821163196037061
+  },
+  {
+    "tag": "iOS",
+    "difficulty": 0.8760668457176963
+  },
+  {
+    "tag": "Java",
+    "difficulty": 0.8984996975196612
+  },
+  {
+    "tag": "Swift",
+    "difficulty": 0.8124142704335242
+  },
+  {
+    "tag": "Android",
+    "difficulty": 0.8683056832567126
+  },
+  {
+    "tag": "Git",
+    "difficulty": 0.776315331010453
+  },
+  {
+    "tag": "C#",
+    "difficulty": 0.9210026612961231
+  },
+  {
+    "tag": "Unity",
+    "difficulty": 0.8903072182276588
+  },
+  {
+    "tag": "Go",
+    "difficulty": 0.8413691451031772
+  },
+  {
+    "tag": "MySQL",
+    "difficulty": 0.841635687732342
   },
   {
     "tag": "Laravel",
     "difficulty": 0.8144287915474356
   },
   {
-    "tag": "React",
-    "difficulty": 0.7717707633758675
-  },
-  {
-    "tag": "Windows",
-    "difficulty": 0.8818767249310028
-  },
-  {
-    "tag": "TypeScript",
-    "difficulty": 0.7878264592550307
+    "tag": "GitHub",
+    "difficulty": 0.7800440871369295
   },
   {
     "tag": "Xcode",
     "difficulty": 0.8290771737520368
   },
   {
-    "tag": "Ubuntu",
-    "difficulty": 0.8691209281570726
-  },
-  {
-    "tag": "CentOS",
-    "difficulty": 0.8517247987734764
-  },
-  {
-    "tag": "jQuery",
-    "difficulty": 0.8160630841121496
-  },
-  {
-    "tag": "VSCode",
-    "difficulty": 0.803960396039604
+    "tag": "RaspberryPi",
+    "difficulty": 0.8467078499321982
   },
   {
     "tag": "Kotlin",
     "difficulty": 0.8150631258162822
   },
   {
+    "tag": "Azure",
+    "difficulty": 0.8769194424757855
+  },
+  {
     "tag": "kubernetes",
-    "difficulty": 0.78073352954494
-  },
-  {
-    "tag": "Firebase",
-    "difficulty": 0.7852709587772116
-  },
-  {
-    "tag": "MacOSX",
-    "difficulty": 0.9015151515151516
+    "difficulty": 0.7807335295449399
   },
   {
     "tag": "Vim",
-    "difficulty": 0.8168958742632613
+    "difficulty": 0.8142436149312378
   },
   {
     "tag": "SQL",
-    "difficulty": 0.8774709302325581
+    "difficulty": 0.8818071705426357
   },
   {
     "tag": "WordPress",
     "difficulty": 0.8330426115125841
+  },
+  {
+    "tag": "Django",
+    "difficulty": 0.6976620076238882
+  },
+  {
+    "tag": "Heroku",
+    "difficulty": 0.7345310435931308
+  },
+  {
+    "tag": "Objective-C",
+    "difficulty": 0.9200107009095774
   },
   {
     "tag": "PostgreSQL",
@@ -80,24 +112,40 @@
     "difficulty": 0.8252548131370329
   },
   {
-    "tag": "Windows10",
-    "difficulty": 0.8222680979906414
+    "tag": "Slack",
+    "difficulty": 0.8400896860986548
   },
   {
     "tag": "nginx",
     "difficulty": 0.7221716712162574
   },
   {
-    "tag": "HTML5",
-    "difficulty": 0.8536195549984331
+    "tag": "EC2",
+    "difficulty": 0.9094778146694837
+  },
+  {
+    "tag": "C",
+    "difficulty": 0.9210026612961231
+  },
+  {
+    "tag": "docker-compose",
+    "difficulty": 0.6769724770642203
   },
   {
     "tag": "Excel",
-    "difficulty": 0.9273142112125164
+    "difficulty": 0.9193285528031291
   },
   {
-    "tag": "ShellScript",
-    "difficulty": 0.8910307898259706
+    "tag": "IoT",
+    "difficulty": 0.8962194713951155
+  },
+  {
+    "tag": "gcp",
+    "difficulty": 0.9196445572834021
+  },
+  {
+    "tag": "AtCoder",
+    "difficulty": 0.8907103825136611
   },
   {
     "tag": "GoogleAppsScript",
@@ -108,16 +156,28 @@
     "difficulty": 0.8717878057182226
   },
   {
-    "tag": "nuxt.js",
-    "difficulty": 0.6564717477003942
+    "tag": "Flutter",
+    "difficulty": 0.8043421905379132
+  },
+  {
+    "tag": "Arduino",
+    "difficulty": 0.8422835195530727
   },
   {
     "tag": "api",
     "difficulty": 0.8241186736474694
   },
   {
+    "tag": "SSH",
+    "difficulty": 0.7767142857142856
+  },
+  {
     "tag": "ポエム",
     "difficulty": 0.8862918044836456
+  },
+  {
+    "tag": "PowerShell",
+    "difficulty": 0.8826070763500932
   },
   {
     "tag": "Ansible",
@@ -128,24 +188,36 @@
     "difficulty": 0.744578313253012
   },
   {
+    "tag": "AndroidStudio",
+    "difficulty": 0.8273507608271556
+  },
+  {
+    "tag": "競技プログラミング",
+    "difficulty": 0.9000751314800903
+  },
+  {
+    "tag": "新人プログラマ応援",
+    "difficulty": 0.9212629896083134
+  },
+  {
     "tag": "Rust",
-    "difficulty": 0.8205614867536578
+    "difficulty": 0.8145116646896007
   },
   {
     "tag": "oracle",
     "difficulty": 0.8656143344709898
   },
   {
-    "tag": "pandas",
-    "difficulty": 0.7502739148756847
+    "tag": "JSON",
+    "difficulty": 0.8160593220338983
   },
   {
     "tag": "S3",
-    "difficulty": 0.8772423025435072
+    "difficulty": 0.8650602409638554
   },
   {
     "tag": "VBA",
-    "difficulty": 0.9531264262893655
+    "difficulty": 0.9535828388863532
   },
   {
     "tag": "Qiita",
@@ -156,6 +228,26 @@
     "difficulty": 0.8305322128851541
   },
   {
+    "tag": "spring-boot",
+    "difficulty": 0.7643410852713179
+  },
+  {
+    "tag": "iPhone",
+    "difficulty": 0.9196059586737146
+  },
+  {
+    "tag": "RSpec",
+    "difficulty": 0.709326171875
+  },
+  {
+    "tag": "GoogleCloudPlatform",
+    "difficulty": 0.9242783505154639
+  },
+  {
+    "tag": "Emacs",
+    "difficulty": 0.7920220772704465
+  },
+  {
     "tag": "Twitter",
     "difficulty": 0.7862745098039216
   },
@@ -164,56 +256,76 @@
     "difficulty": 0.9099204244031831
   },
   {
-    "tag": "Web",
-    "difficulty": 0.8368753287743294
+    "tag": "Rails5",
+    "difficulty": 0.7289005235602094
+  },
+  {
+    "tag": "gas",
+    "difficulty": 0.8817899637868598
+  },
+  {
+    "tag": "Salesforce",
+    "difficulty": 0.9437919463087248
   },
   {
     "tag": "Elasticsearch",
-    "difficulty": 0.7787089467723669
+    "difficulty": 0.7235560588901473
   },
   {
-    "tag": "プログラミング",
-    "difficulty": 0.9235434007134362
+    "tag": "Selenium",
+    "difficulty": 0.7967474866942639
+  },
+  {
+    "tag": "VisualStudio",
+    "difficulty": 0.9185945273631841
   },
   {
     "tag": "ibmcloud",
-    "difficulty": 0.8822143698468785
-  },
-  {
-    "tag": "自然言語処理",
-    "difficulty": 0.8516826923076923
+    "difficulty": 0.9106007067137808
   },
   {
     "tag": "セキュリティ",
     "difficulty": 0.8585979628520072
   },
   {
-    "tag": "Jupyter",
-    "difficulty": 0.7307984790874524
+    "tag": "Eclipse",
+    "difficulty": 0.8296538210320051
   },
   {
-    "tag": "numpy",
-    "difficulty": 0.7899810964083176
+    "tag": "Dart",
+    "difficulty": 0.838533834586466
   },
   {
-    "tag": "AI",
-    "difficulty": 0.8165120593692021
+    "tag": "aws-cli",
+    "difficulty": 0.860837272113437
   },
   {
     "tag": "Perl",
     "difficulty": 0.8793745841650032
   },
   {
-    "tag": "環境構築",
-    "difficulty": 0.8678523489932888
+    "tag": ".net",
+    "difficulty": 0.9132604237867396
+  },
+  {
+    "tag": "Jenkins",
+    "difficulty": 0.7548909218859958
   },
   {
     "tag": "Blockchain",
-    "difficulty": 0.8386178861788618
+    "difficulty": 0.840379403794038
   },
   {
     "tag": "AdventCalendar",
-    "difficulty": 0.8990888382687927
+    "difficulty": 0.9096431283219438
+  },
+  {
+    "tag": "Gem",
+    "difficulty": 0.7936079545454545
+  },
+  {
+    "tag": "spring",
+    "difficulty": 0.8067335243553009
   },
   {
     "tag": "MongoDB",
@@ -221,94 +333,442 @@
   },
   {
     "tag": "メモ",
-    "difficulty": 0.9646616541353381
+    "difficulty": 0.9844839371155161
   },
   {
     "tag": "GitLab",
     "difficulty": 0.7544476327116213
   },
   {
-    "tag": "入門",
-    "difficulty": 0.9057430007178751
+    "tag": "ATOM",
+    "difficulty": 0.8836166924265842
+  },
+  {
+    "tag": "Terraform",
+    "difficulty": 0.7883431085043988
+  },
+  {
+    "tag": "linebot",
+    "difficulty": 0.7630898021308982
+  },
+  {
+    "tag": "スクレイピング",
+    "difficulty": 0.8307635829662262
+  },
+  {
+    "tag": "Flask",
+    "difficulty": 0.7119764878765613
+  },
+  {
+    "tag": "オブジェクト指向",
+    "difficulty": 0.8133828996282528
   },
   {
     "tag": "正規表現",
-    "difficulty": 0.8145357686453577
+    "difficulty": 0.80882800608828
+  },
+  {
+    "tag": "CakePHP",
+    "difficulty": 0.8615384615384615
+  },
+  {
+    "tag": "gradle",
+    "difficulty": 0.7238924050632912
   },
   {
     "tag": "google",
     "difficulty": 0.8669019607843136
   },
   {
+    "tag": "Railsチュートリアル",
+    "difficulty": 0.7009774436090226
+  },
+  {
+    "tag": "PHP7",
+    "difficulty": 0.8742063492063492
+  },
+  {
     "tag": "Unity3D",
     "difficulty": 0.9079073482428115
+  },
+  {
+    "tag": "CircleCI",
+    "difficulty": 0.6073684210526316
+  },
+  {
+    "tag": "Network",
+    "difficulty": 0.9107692307692309
   },
   {
     "tag": "テスト",
     "difficulty": 0.8934102141680395
   },
   {
+    "tag": "ROS",
+    "difficulty": 0.7718723761544919
+  },
+  {
+    "tag": "IntelliJ",
+    "difficulty": 0.9150131694468833
+  },
+  {
+    "tag": "UE4",
+    "difficulty": 0.8876629018245005
+  },
+  {
+    "tag": "Rails6",
+    "difficulty": 0.7107416879795397
+  },
+  {
     "tag": "Security",
-    "difficulty": 0.8285714285714286
+    "difficulty": 0.8429475587703437
+  },
+  {
+    "tag": "Ethereum",
+    "difficulty": 0.7366515837104073
+  },
+  {
+    "tag": "CSV",
+    "difficulty": 0.8648528099910793
+  },
+  {
+    "tag": "RPA",
+    "difficulty": 0.9040308747855917
+  },
+  {
+    "tag": "HTTP",
+    "difficulty": 0.8301530153015302
   },
   {
     "tag": "DB",
     "difficulty": 0.890818181818182
   },
   {
+    "tag": "Redmine",
+    "difficulty": 0.8280718336483932
+  },
+  {
+    "tag": "test",
+    "difficulty": 0.8406934306569342
+  },
+  {
+    "tag": "SSL",
+    "difficulty": 0.7250240615976901
+  },
+  {
+    "tag": "SQLServer",
+    "difficulty": 0.8994334277620398
+  },
+  {
+    "tag": "電子工作",
+    "difficulty": 0.9109467455621303
+  },
+  {
     "tag": "BigQuery",
-    "difficulty": 0.8659922928709056
+    "difficulty": 0.886319845857418
+  },
+  {
+    "tag": "ゲーム制作",
+    "difficulty": 0.9312240663900415
   },
   {
     "tag": "Bluemix",
     "difficulty": 0.85463687150838
   },
   {
+    "tag": "WPF",
+    "difficulty": 0.8157057654075546
+  },
+  {
     "tag": "java8",
     "difficulty": 0.8986206896551725
+  },
+  {
+    "tag": "Redis",
+    "difficulty": 0.8356850715746422
+  },
+  {
+    "tag": "node-red",
+    "difficulty": 0.8483157894736841
+  },
+  {
+    "tag": "GoogleSpreadSheet",
+    "difficulty": 0.8474525474525475
+  },
+  {
+    "tag": "UI",
+    "difficulty": 0.8997973657548124
+  },
+  {
+    "tag": "Rails4",
+    "difficulty": 0.7604863221884498
+  },
+  {
+    "tag": "vmware",
+    "difficulty": 0.8674145299145298
+  },
+  {
+    "tag": "LaTeX",
+    "difficulty": 0.8477766287487073
+  },
+  {
+    "tag": "APIGateway",
+    "difficulty": 0.8094462540716613
+  },
+  {
+    "tag": "Database",
+    "difficulty": 0.8627534685165422
+  },
+  {
+    "tag": "VR",
+    "difficulty": 0.9327113062568605
   },
   {
     "tag": "CTF",
     "difficulty": 0.7567596566523604
   },
   {
-    "tag": "Kaggle",
-    "difficulty": 0.7833333333333333
+    "tag": "どう書く",
+    "difficulty": 0.9295258620689655
   },
   {
-    "tag": "scikit-learn",
-    "difficulty": 0.7287655719139299
+    "tag": "kintone",
+    "difficulty": 0.6791284403669725
+  },
+  {
+    "tag": "デザインパターン",
+    "difficulty": 0.8779999999999999
+  },
+  {
+    "tag": "devise",
+    "difficulty": 0.553879781420765
+  },
+  {
+    "tag": "Line",
+    "difficulty": 0.8189127972819932
+  },
+  {
+    "tag": "chef",
+    "difficulty": 0.6930880713489409
+  },
+  {
+    "tag": "Xamarin",
+    "difficulty": 0.8507975460122699
+  },
+  {
+    "tag": "ネットワーク",
+    "difficulty": 0.9081677704194261
+  },
+  {
+    "tag": "GitHubActions",
+    "difficulty": 0.6175080558539205
   },
   {
     "tag": "Julia",
     "difficulty": 0.9028058361391695
   },
   {
+    "tag": "cloud9",
+    "difficulty": 0.8699769053117784
+  },
+  {
+    "tag": "ESP32",
+    "difficulty": 0.8465346534653465
+  },
+  {
+    "tag": "CloudFormation",
+    "difficulty": 0.8800224466891132
+  },
+  {
+    "tag": "DynamoDB",
+    "difficulty": 0.891725768321513
+  },
+  {
     "tag": "勉強会",
-    "difficulty": 0.8364497041420119
+    "difficulty": 0.8444970414201183
+  },
+  {
+    "tag": "FPGA",
+    "difficulty": 0.9220930232558141
+  },
+  {
+    "tag": "RDS",
+    "difficulty": 0.8652989449003515
   },
   {
     "tag": "serverless",
     "difficulty": 0.7445569620253164
   },
   {
-    "tag": "個人開発",
-    "difficulty": 0.8242078580481623
+    "tag": "GraphQL",
+    "difficulty": 0.7684624017957351
+  },
+  {
+    "tag": "cppBuilder",
+    "difficulty": 0.8865853658536587
+  },
+  {
+    "tag": "ECS",
+    "difficulty": 0.8008443908323282
+  },
+  {
+    "tag": "資格",
+    "difficulty": 0.8735091743119267
+  },
+  {
+    "tag": "matlab",
+    "difficulty": 0.9534461910519954
+  },
+  {
+    "tag": "Composer",
+    "difficulty": 0.7742927429274293
+  },
+  {
+    "tag": "SwiftUI",
+    "difficulty": 0.8413253012048193
+  },
+  {
+    "tag": "zabbix",
+    "difficulty": 0.7901155327342747
+  },
+  {
+    "tag": "Alexa",
+    "difficulty": 0.8103105590062112
+  },
+  {
+    "tag": "error",
+    "difficulty": 0.8742177722152691
+  },
+  {
+    "tag": "bot",
+    "difficulty": 0.8070866141732284
+  },
+  {
+    "tag": "Microsoft",
+    "difficulty": 0.9201799485861184
+  },
+  {
+    "tag": "processing",
+    "difficulty": 0.8076543209876543
+  },
+  {
+    "tag": "mariadb",
+    "difficulty": 0.7948119325551233
+  },
+  {
+    "tag": "TwitterAPI",
+    "difficulty": 0.7346784363177805
+  },
+  {
+    "tag": "CI",
+    "difficulty": 0.758898847631242
+  },
+  {
+    "tag": "oraclecloud",
+    "difficulty": 0.8348808030112924
+  },
+  {
+    "tag": "android開発",
+    "difficulty": 0.8206410256410257
+  },
+  {
+    "tag": "Raspberrypi3",
+    "difficulty": 0.8461126005361932
+  },
+  {
+    "tag": "ActiveRecord",
+    "difficulty": 0.8442799461641991
+  },
+  {
+    "tag": "エンジニア",
+    "difficulty": 0.9027415143603132
+  },
+  {
+    "tag": "ExcelVBA",
+    "difficulty": 0.9409589041095889
+  },
+  {
+    "tag": "curl",
+    "difficulty": 0.7875512995896032
+  },
+  {
+    "tag": "自動化",
+    "difficulty": 0.8766097240473062
+  },
+  {
+    "tag": "Fluentd",
+    "difficulty": 0.5235042735042735
+  },
+  {
+    "tag": "TechEnglish",
+    "difficulty": 0.6922844175491679
+  },
+  {
+    "tag": "oci",
+    "difficulty": 0.810146862483311
+  },
+  {
+    "tag": "Spark",
+    "difficulty": 0.8829512893982807
+  },
+  {
+    "tag": "mecab",
+    "difficulty": 0.7319209039548022
+  },
+  {
+    "tag": "WebAPI",
+    "difficulty": 0.8173410404624277
+  },
+  {
+    "tag": "Maven",
+    "difficulty": 0.6680281690140846
   },
   {
     "tag": "SoftLayer",
-    "difficulty": 0.9231966053748231
+    "difficulty": 0.9231966053748233
   },
   {
-    "tag": "Bitcoin",
-    "difficulty": 0.8128125
+    "tag": "データベース",
+    "difficulty": 0.8964817320703652
   },
   {
-    "tag": "GPU",
-    "difficulty": 0.8667814113597245
+    "tag": "DDD",
+    "difficulty": 0.812338593974175
   },
   {
-    "tag": "人工知能",
-    "difficulty": 0.7901960784313725
+    "tag": "Swift4",
+    "difficulty": 0.6626740947075208
+  },
+  {
+    "tag": "rbenv",
+    "difficulty": 0.7227777777777779
+  },
+  {
+    "tag": "LINEmessagingAPI",
+    "difficulty": 0.778954802259887
+  },
+  {
+    "tag": "C言語",
+    "difficulty": 0.9235211267605635
+  },
+  {
+    "tag": "設計",
+    "difficulty": 0.8969653179190751
+  },
+  {
+    "tag": "SQLite3",
+    "difficulty": 0.6422096317280453
+  },
+  {
+    "tag": "PDF",
+    "difficulty": 0.8773826458036984
+  },
+  {
+    "tag": "IAM",
+    "difficulty": 0.9248164464023494
+  },
+  {
+    "tag": ".netcore",
+    "difficulty": 0.8894582723279649
   }
 ]

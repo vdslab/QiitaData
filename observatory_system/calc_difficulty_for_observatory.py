@@ -7,16 +7,14 @@ from set_best_permutation import set_best_permutation
 
 data_list = []
 tags_word_dict = {}
-tag_list = ["React", "JavaScript", "Node.js", "Vue.js", "HTML", "CSS"]
-files = glob.glob("./article_data/*")
-all_word_data = json.load(open("./word_data/all_word_data.json"))
-print(files)
-for file in files:
-    file_data = json.load(open(file, "r"))
-    data_list.append(file_data[0])
+cluster_data = json.load(open("./clustering_sample_data_300.json"))
+print(cluster_data["cluster1"])
+all_word_data = json.load(open("./word_data/all_words.json"))
 
-for tag_data in all_word_data:
-    tags_word_dict[tag_data["tag"]] = tag_data["words"]
+for cluster_tags in cluster_data.values():
+  for tag in cluster_tags:
+    tag_data = json.load(open("../zemi_data/honban_data/" + tag.lower() + "_data.json")) if tag[0] == "." else json.load(open("../zemi_data/honban_data/" + tag[1:].lower() + "_data.json"))
+    tags_word_dict[tag] = tag_data["words"]
 
 # 観点語(今回は調べたい領域とする)
 perspective_word = "フロントエンド"
@@ -36,8 +34,3 @@ for tag_data in best_permutation:
 print(tag_list)
 with open("test.json", mode="wt", encoding="utf-8") as file:
     json.dump(best_permutation, file, ensure_ascii=False, indent=2)
-
-"""
-with open("word_data.json", mode="wt", encoding="utf-8") as file:
-    json.dump(topic_words_page_cnt, file, ensure_ascii=False, indent=2)
-"""

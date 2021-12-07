@@ -1,0 +1,130 @@
+[
+  {
+    "HTML": {
+      "HTML5": 1,
+      "jQuery": 1,
+      "プログラミング初心者": 0.8
+    },
+    "scss": {
+      "HTML": 1
+    },
+    "Firebase": {
+      "Node.js": 1
+    },
+    "Chrome": {
+      "JavaScript": 1
+    },
+    "JavaScript": {
+      "Firebase": 1
+    },
+    "Electron": {
+      "React": 1,
+      "Angular": 0.8
+    },
+    "CSS": {
+      "React": 1
+    },
+    "chrome-extension": {
+      "JavaScript": 1
+    },
+    "初心者": {
+      "Node.js": 1
+    },
+    "gulp": {
+      "Bootstrap": 1
+    },
+    "React": {
+      "Firestore": 0.8,
+      "Markdown": 0.8
+    },
+    "Angular": {
+      "フロントエンド": 0.8,
+      "es6": 0.8,
+      "Sass": 0.4000000000000001,
+      "kintone": 0.20000000000000007
+    },
+    "Bootstrap": {
+      "JavaScript": 0.8
+    },
+    "Markdown": {
+      "Node.js": 0.8,
+      "Vue.js": 0.8
+    },
+    "CoffeeScript": {
+      "HTML5": 0.8
+    },
+    "kintone": {
+      "webpack": 0.8
+    },
+    "個人開発": {
+      "Markdown": 0.6000000000000001
+    },
+    "Web": {
+      "Rails": 0.6000000000000001,
+      "scss": 0.6000000000000001
+    },
+    "プログラミング": {
+      "Rails": 0.6000000000000001,
+      "Express": 0.4000000000000001
+    },
+    "Rails": {
+      "nuxt.js": 0.6000000000000001
+    },
+    "TypeScript": {
+      "HTML5": 0.6000000000000001
+    },
+    "AdventCalendar": {
+      "Rails": 0.6000000000000001,
+      "Firebase": 0.6000000000000001
+    },
+    "JSON": {
+      "Rails6": 0.6000000000000001,
+      "Firebase": 0.4000000000000001
+    },
+    "babel": {
+      "Bootstrap": 0.6000000000000001
+    },
+    "CSS3": {
+      "React": 0.6000000000000001
+    },
+    "初心者向け": {
+      "npm": 0.4000000000000001
+    },
+    "Firestore": {
+      "WebGL": 0.4000000000000001
+    },
+    "reactnative": {
+      "Vue.js": 0.4000000000000001
+    },
+    "next.js": {
+      "Vue.js": 0.4000000000000001
+    },
+    "redux": {
+      "Sass": 0.4000000000000001
+    },
+    "Vuex": {
+      "Node.js": 0.4000000000000001
+    },
+    "Ajax": {
+      "webpack": 0.4000000000000001
+    },
+    "webpack": {
+      "GraphQL": 0.4000000000000001
+    },
+    "Rails5": {
+      "AdventCalendar": 0.20000000000000007
+    },
+    "npm": {
+      "HTML5": 0.20000000000000007
+    },
+    "memo": {
+      "es6": 0.20000000000000007
+    },
+    "UI": {
+      "Express": 0.20000000000000007
+    },
+    "ゲーム制作": {
+      "Rails": 0.20000000000000007
+    }
+  }
+]
